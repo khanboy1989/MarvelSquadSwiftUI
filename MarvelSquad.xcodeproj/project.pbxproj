@@ -14,7 +14,6 @@
 		54F2FA4F2B430B8E006D51C9 /* MarvelSquadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA4E2B430B8E006D51C9 /* MarvelSquadTests.swift */; };
 		54F2FA592B430B8E006D51C9 /* MarvelSquadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA582B430B8E006D51C9 /* MarvelSquadUITests.swift */; };
 		54F2FA5B2B430B8E006D51C9 /* MarvelSquadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA5A2B430B8E006D51C9 /* MarvelSquadUITestsLaunchTests.swift */; };
-		54F2FA6B2B430D3E006D51C9 /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = 54F2FA6A2B430D3E006D51C9 /* Router */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		54F2FA542B430B8E006D51C9 /* MarvelSquadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelSquadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F2FA582B430B8E006D51C9 /* MarvelSquadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadUITests.swift; sourceTree = "<group>"; };
 		54F2FA5A2B430B8E006D51C9 /* MarvelSquadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		54F2FA682B430D2D006D51C9 /* Router */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Router; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F2FA6B2B430D3E006D51C9 /* Router in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +132,6 @@
 		54F2FA672B430C3B006D51C9 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				54F2FA682B430D2D006D51C9 /* Router */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -164,7 +160,6 @@
 			);
 			name = MarvelSquad;
 			packageProductDependencies = (
-				54F2FA6A2B430D3E006D51C9 /* Router */,
 			);
 			productName = MarvelSquad;
 			productReference = 54F2FA3A2B430B8D006D51C9 /* MarvelSquad.app */;
@@ -605,13 +600,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		54F2FA6A2B430D3E006D51C9 /* Router */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Router;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54F2FA322B430B8D006D51C9 /* Project object */;
 }
