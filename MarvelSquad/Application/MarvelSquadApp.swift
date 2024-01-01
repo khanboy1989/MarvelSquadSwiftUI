@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Router
 
 @main
 struct MarvelSquadApp: App {
