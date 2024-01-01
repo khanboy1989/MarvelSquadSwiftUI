@@ -45,6 +45,7 @@
 		54F2FA582B430B8E006D51C9 /* MarvelSquadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadUITests.swift; sourceTree = "<group>"; };
 		54F2FA5A2B430B8E006D51C9 /* MarvelSquadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		54F2FA6C2B431052006D51C9 /* Router */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Router; sourceTree = "<group>"; };
+		54F2FA6D2B4312B5006D51C9 /* TestPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TestPackage; path = Foundation/TestPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		54F2FA312B430B8D006D51C9 = {
 			isa = PBXGroup;
 			children = (
+				54F2FA6D2B4312B5006D51C9 /* TestPackage */,
 				54F2FA672B430C3B006D51C9 /* Foundation */,
 				54F2FA3C2B430B8D006D51C9 /* MarvelSquad */,
 				54F2FA4D2B430B8E006D51C9 /* MarvelSquadTests */,
