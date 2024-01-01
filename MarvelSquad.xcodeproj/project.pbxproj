@@ -44,6 +44,7 @@
 		54F2FA542B430B8E006D51C9 /* MarvelSquadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelSquadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F2FA582B430B8E006D51C9 /* MarvelSquadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadUITests.swift; sourceTree = "<group>"; };
 		54F2FA5A2B430B8E006D51C9 /* MarvelSquadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54F2FA702B431C4E006D51C9 /* Router */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Router; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		54F2FA672B430C3B006D51C9 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				54F2FA702B431C4E006D51C9 /* Router */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
