@@ -1,0 +1,20 @@
+input_dir: MarvelSquad/Supporting
+output_dir: MarvelSquad/Generated
+plist:
+    inputs: Info.plist
+    outputs:
+    - templateName: runtime-swift5
+      output: Info.swift
+strings:
+  inputs: en.lproj/Localizable.strings
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift5
+      output: Strings.swift
+xcassets:
+  inputs:
+    - Images.xcassets
+    - Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets.swift

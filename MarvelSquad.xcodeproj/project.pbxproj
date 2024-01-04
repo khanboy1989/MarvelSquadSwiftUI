@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54BB394E2B47192200E3FC8C /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394B2B47192200E3FC8C /* Assets.swift */; };
+		54BB394F2B47192200E3FC8C /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394C2B47192200E3FC8C /* Strings.swift */; };
+		54BB39502B47192200E3FC8C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394D2B47192200E3FC8C /* Info.swift */; };
 		54BD55B92B46EC9C001A9F70 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BD55B82B46EC9C001A9F70 /* Configuration.swift */; };
 		54BD55BB2B46EE59001A9F70 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = 54BD55BA2B46EE59001A9F70 /* Logger */; };
 		54BD55BD2B46EE59001A9F70 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 54BD55BC2B46EE59001A9F70 /* Network */; };
+		54BD55C42B46FDAC001A9F70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55C62B46FDAC001A9F70 /* Localizable.strings */; };
+		54BD55CA2B46FE40001A9F70 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55C92B46FE40001A9F70 /* Colors.xcassets */; };
+		54BD55CC2B46FE4A001A9F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55CB2B46FE4A001A9F70 /* Images.xcassets */; };
+		54BD55CE2B470468001A9F70 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55CD2B470468001A9F70 /* swiftgen.yml */; };
 		54F2FA3E2B430B8D006D51C9 /* MarvelSquadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA3D2B430B8D006D51C9 /* MarvelSquadApp.swift */; };
 		54F2FA402B430B8D006D51C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA3F2B430B8D006D51C9 /* ContentView.swift */; };
 		54F2FA422B430B8E006D51C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F2FA412B430B8E006D51C9 /* Assets.xcassets */; };
@@ -39,8 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54BB394A2B47186A00E3FC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54BB394B2B47192200E3FC8C /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		54BB394C2B47192200E3FC8C /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		54BB394D2B47192200E3FC8C /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		54BD55B62B46C6CB001A9F70 /* Logger */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Logger; sourceTree = "<group>"; };
 		54BD55B82B46EC9C001A9F70 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		54BD55C52B46FDAC001A9F70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		54BD55C92B46FE40001A9F70 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		54BD55CB2B46FE4A001A9F70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54BD55CD2B470468001A9F70 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
 		54F2FA3A2B430B8D006D51C9 /* MarvelSquad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelSquad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F2FA3D2B430B8D006D51C9 /* MarvelSquadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSquadApp.swift; sourceTree = "<group>"; };
 		54F2FA3F2B430B8D006D51C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +107,29 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		54BD55BE2B46FCDE001A9F70 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				54BB394A2B47186A00E3FC8C /* Info.plist */,
+				54BD55CD2B470468001A9F70 /* swiftgen.yml */,
+				54F2FA412B430B8E006D51C9 /* Assets.xcassets */,
+				54BD55C62B46FDAC001A9F70 /* Localizable.strings */,
+				54BD55C92B46FE40001A9F70 /* Colors.xcassets */,
+				54BD55CB2B46FE4A001A9F70 /* Images.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		54BD55C12B46FD79001A9F70 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				54BB394B2B47192200E3FC8C /* Assets.swift */,
+				54BB394D2B47192200E3FC8C /* Info.swift */,
+				54BB394C2B47192200E3FC8C /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		54F2FA312B430B8D006D51C9 = {
 			isa = PBXGroup;
 			children = (
@@ -117,10 +155,11 @@
 		54F2FA3C2B430B8D006D51C9 /* MarvelSquad */ = {
 			isa = PBXGroup;
 			children = (
+				54BD55C12B46FD79001A9F70 /* Generated */,
+				54BD55BE2B46FCDE001A9F70 /* Supporting */,
 				54BD55B72B46EB8C001A9F70 /* Configuration */,
 				54F2FA742B4320A0006D51C9 /* Presentation */,
 				54F2FA732B43207C006D51C9 /* Application */,
-				54F2FA412B430B8E006D51C9 /* Assets.xcassets */,
 				54F2FA432B430B8E006D51C9 /* Preview Content */,
 			);
 			path = MarvelSquad;
@@ -203,6 +242,7 @@
 				54F2FA362B430B8D006D51C9 /* Sources */,
 				54F2FA372B430B8D006D51C9 /* Frameworks */,
 				54F2FA382B430B8D006D51C9 /* Resources */,
+				54BD55C72B46FDDA001A9F70 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -302,8 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BD55CA2B46FE40001A9F70 /* Colors.xcassets in Resources */,
 				54F2FA452B430B8E006D51C9 /* Preview Assets.xcassets in Resources */,
+				54BD55C42B46FDAC001A9F70 /* Localizable.strings in Resources */,
+				54BD55CC2B46FE4A001A9F70 /* Images.xcassets in Resources */,
 				54F2FA422B430B8E006D51C9 /* Assets.xcassets in Resources */,
+				54BD55CE2B470468001A9F70 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +367,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54BD55C72B46FDDA001A9F70 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftgen >/dev/null; then\n    swiftgen config run --config ${PROJECT_DIR}/swiftgen.yml\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54F2FA362B430B8D006D51C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -331,7 +396,10 @@
 				54F2FA402B430B8D006D51C9 /* ContentView.swift in Sources */,
 				54F2FA3E2B430B8D006D51C9 /* MarvelSquadApp.swift in Sources */,
 				54BD55B92B46EC9C001A9F70 /* Configuration.swift in Sources */,
+				54BB394E2B47192200E3FC8C /* Assets.swift in Sources */,
+				54BB394F2B47192200E3FC8C /* Strings.swift in Sources */,
 				54F2FA772B432967006D51C9 /* MainTabView.swift in Sources */,
+				54BB39502B47192200E3FC8C /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +434,17 @@
 			targetProxy = 54F2FA552B430B8E006D51C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54BD55C62B46FDAC001A9F70 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BD55C52B46FDAC001A9F70 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		54F2FA5C2B430B8E006D51C9 /* Debug */ = {
@@ -496,7 +575,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MarvelSquad/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelSquad/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -524,7 +605,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MarvelSquad/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelSquad/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  MarvelSquad
+
+  Created by Serhan Khan on 04/01/2024.
+  
+*/
+
+//SquadButtonTexts
+"squadButtonRecruitText" = "💪 Recruit to Squad";
+"squadButtonFireText" = "🔥 Fire from Squad";
+"mySquadTitle" = "My Squad";
+
+//General Texts
+"unknownError" = "Unknown error occured.";
+"internetError" = "Please check your internet connection and try again!";
+"error" = "Error";
+"refresh" = "Refresh";
