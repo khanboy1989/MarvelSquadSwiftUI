@@ -21,6 +21,8 @@ public enum BodyParameter {
     case encodable(Encodable, encoder: JSONEncoder = .init())
 }
 
+//Endpoint type protocol
+//Inherit this to create endpoint params for request
 public protocol EndpointType {
     var baseUrl: URL? { get }
     var path: String { get }
@@ -28,4 +30,24 @@ public protocol EndpointType {
     var urlQueries: [String: String]? { get }
     var headers: [String: String]? { get }
     var bodyParameters: BodyParameter? { get }
+}
+
+//Struct for creating the APIEndpoint Models, inherits the EndpointType (protocol)
+public struct APIEndpoint: EndpointType {
+    public let baseUrl: URL?
+    public let path: String
+    public let httpMethod: HTTPMethod
+    public let urlQueries: [String : String]?
+    public let headers: [String : String]?
+    public let bodyParameters: BodyParameter?
+    
+    public init(baseUrl: URL?, path: String, httpMethod: HTTPMethod, urlQueries: [String : String]?, headers: [String : String]?, bodyParameters: BodyParameter?) {
+        self.baseUrl = baseUrl
+        self.path = path
+        self.httpMethod = httpMethod
+        self.urlQueries = urlQueries
+        self.headers = headers
+        self.bodyParameters = bodyParameters
+    }
+    
 }
