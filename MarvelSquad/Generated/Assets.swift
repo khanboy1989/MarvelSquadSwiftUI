@@ -23,7 +23,7 @@ internal typealias AssetColorTypeAlias = ColorAsset.Color
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
   internal enum Colors {
-    internal static let red = ColorAsset(name: "red")
+    internal static let accentRed = ColorAsset(name: "accentRed")
   }
   internal enum Images {
   }
