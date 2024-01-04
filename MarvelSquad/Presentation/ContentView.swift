@@ -12,8 +12,8 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+                .foregroundStyle(Asset.Colors.red.swiftUIColor)
+            Text(L10n.squadButtonFireText)
         }
         .padding()
     }
