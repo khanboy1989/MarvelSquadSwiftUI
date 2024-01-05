@@ -143,7 +143,6 @@
 		545FB10E2B47797A00D3B983 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		545FB13E2B4779DF00D3B983 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		54AD168D2B478D1300136813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		54AD16922B478DF200136813 /* SystemDesign */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SystemDesign; sourceTree = "<group>"; };
 		54BB394A2B47186A00E3FC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54BB394B2B47192200E3FC8C /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		54BB394C2B47192200E3FC8C /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -253,7 +252,6 @@
 		54AD16902B478D4B00136813 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				54AD16922B478DF200136813 /* SystemDesign */,
 			);
 			path = Core;
 			sourceTree = "<group>";
