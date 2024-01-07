@@ -6,16 +6,11 @@
 //
 
 import SwiftUI
+import CharactersList
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(Asset.Colors.accentRed.swiftUIColor)
-            Text(L10n.squadButtonFireText)
-        }
-        .padding()
+        CharactersList(characterName: "Spider Man", characterAvatar: Asset.Images.avatarPlaceHolder.swiftUIImage)
     }
 }
 

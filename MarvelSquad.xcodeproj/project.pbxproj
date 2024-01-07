@@ -65,6 +65,7 @@
 		54BD55C42B46FDAC001A9F70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55C62B46FDAC001A9F70 /* Localizable.strings */; };
 		54BD55CA2B46FE40001A9F70 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55C92B46FE40001A9F70 /* Colors.xcassets */; };
 		54BD55CE2B470468001A9F70 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55CD2B470468001A9F70 /* swiftgen.yml */; };
+		54C5CD4F2B4B3B6000266C71 /* CharactersList in Frameworks */ = {isa = PBXBuildFile; productRef = 54C5CD4E2B4B3B6000266C71 /* CharactersList */; };
 		54F2FA3E2B430B8D006D51C9 /* MarvelSquadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA3D2B430B8D006D51C9 /* MarvelSquadApp.swift */; };
 		54F2FA402B430B8D006D51C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2FA3F2B430B8D006D51C9 /* ContentView.swift */; };
 		54F2FA422B430B8E006D51C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F2FA412B430B8E006D51C9 /* Assets.xcassets */; };
@@ -176,6 +177,7 @@
 			files = (
 				54BD55BD2B46EE59001A9F70 /* Network in Frameworks */,
 				54BD55BB2B46EE59001A9F70 /* Logger in Frameworks */,
+				54C5CD4F2B4B3B6000266C71 /* CharactersList in Frameworks */,
 				54F2FA722B43204F006D51C9 /* Router in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +451,7 @@
 				54F2FA712B43204F006D51C9 /* Router */,
 				54BD55BA2B46EE59001A9F70 /* Logger */,
 				54BD55BC2B46EE59001A9F70 /* Network */,
+				54C5CD4E2B4B3B6000266C71 /* CharactersList */,
 			);
 			productName = MarvelSquad;
 			productReference = 54F2FA3A2B430B8D006D51C9 /* MarvelSquad.app */;
@@ -991,6 +994,10 @@
 		54BD55BC2B46EE59001A9F70 /* Network */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Network;
+		};
+		54C5CD4E2B4B3B6000266C71 /* CharactersList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CharactersList;
 		};
 		54F2FA712B43204F006D51C9 /* Router */ = {
 			isa = XCSwiftPackageProductDependency;

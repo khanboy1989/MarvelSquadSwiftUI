@@ -12,6 +12,8 @@ import Foundation
 internal enum PlistFiles {
   private static let _document = PlistDocument(path: "Info.plist")
   internal static let apiBaseURL: String = _document["ApiBaseURL"]
+  internal static let privateKey: String = _document["PrivateKey"]
+  internal static let publicKey: String = _document["PublicKey"]
 }
 // swiftlint:enable identifier_name line_length type_body_length
 

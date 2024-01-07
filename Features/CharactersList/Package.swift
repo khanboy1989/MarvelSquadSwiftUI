@@ -5,17 +5,24 @@ import PackageDescription
 
 let package = Package(
     name: "CharactersList",
+    platforms: [
+        .iOS(.v16),
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "CharactersList",
             targets: ["CharactersList"]),
     ],
+    dependencies: [
+        .package(path: "../Core/CommonUI")
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "CharactersList"),
+            name: "CharactersList",
+            dependencies: [
+                "CommonUI"
+            ]
+        ),
         .testTarget(
             name: "CharactersListTests",
             dependencies: ["CharactersList"]),
