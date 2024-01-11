@@ -143,6 +143,7 @@
 		545FB10D2B47797A00D3B983 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
 		545FB10E2B47797A00D3B983 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		545FB13E2B4779DF00D3B983 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		54737EF62B50B1AF009803B6 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Helpers; sourceTree = "<group>"; };
 		54AD168D2B478D1300136813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		54AD16932B48892200136813 /* CommonUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonUI; sourceTree = "<group>"; };
 		54AD16952B48898C00136813 /* CharactersList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CharactersList; sourceTree = "<group>"; };
@@ -392,6 +393,7 @@
 		54F2FA672B430C3B006D51C9 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				54737EF62B50B1AF009803B6 /* Helpers */,
 				EB38425B2B4FF36200ED9BE3 /* Domain */,
 				54BD55B62B46C6CB001A9F70 /* Logger */,
 				54F2FA782B432A4B006D51C9 /* Network */,
