@@ -55,13 +55,13 @@
 		545FB13C2B47797A00D3B983 /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 545FB10D2B47797A00D3B983 /* SF-Pro-Rounded-Ultralight.otf */; };
 		545FB13D2B47797A00D3B983 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 545FB10E2B47797A00D3B983 /* SF-Pro-Display-Black.otf */; };
 		545FB13F2B4779DF00D3B983 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545FB13E2B4779DF00D3B983 /* Fonts.swift */; };
+		54737EF22B50AFD0009803B6 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 54737EF12B50AFD0009803B6 /* Network */; };
+		54737EF42B50AFDD009803B6 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = 54737EF32B50AFDD009803B6 /* Logger */; };
 		54AD168E2B478D1300136813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AD168D2B478D1300136813 /* Images.xcassets */; };
 		54BB394E2B47192200E3FC8C /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394B2B47192200E3FC8C /* Assets.swift */; };
 		54BB394F2B47192200E3FC8C /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394C2B47192200E3FC8C /* Strings.swift */; };
 		54BB39502B47192200E3FC8C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394D2B47192200E3FC8C /* Info.swift */; };
 		54BD55B92B46EC9C001A9F70 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BD55B82B46EC9C001A9F70 /* Configuration.swift */; };
-		54BD55BB2B46EE59001A9F70 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = 54BD55BA2B46EE59001A9F70 /* Logger */; };
-		54BD55BD2B46EE59001A9F70 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 54BD55BC2B46EE59001A9F70 /* Network */; };
 		54BD55C42B46FDAC001A9F70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55C62B46FDAC001A9F70 /* Localizable.strings */; };
 		54BD55CA2B46FE40001A9F70 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55C92B46FE40001A9F70 /* Colors.xcassets */; };
 		54BD55CE2B470468001A9F70 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 54BD55CD2B470468001A9F70 /* swiftgen.yml */; };
@@ -176,9 +176,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54BD55BD2B46EE59001A9F70 /* Network in Frameworks */,
-				54BD55BB2B46EE59001A9F70 /* Logger in Frameworks */,
+				54737EF22B50AFD0009803B6 /* Network in Frameworks */,
 				54C5CD4F2B4B3B6000266C71 /* CharactersList in Frameworks */,
+				54737EF42B50AFDD009803B6 /* Logger in Frameworks */,
 				54F2FA722B43204F006D51C9 /* Router in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,9 +451,9 @@
 			name = MarvelSquad;
 			packageProductDependencies = (
 				54F2FA712B43204F006D51C9 /* Router */,
-				54BD55BA2B46EE59001A9F70 /* Logger */,
-				54BD55BC2B46EE59001A9F70 /* Network */,
 				54C5CD4E2B4B3B6000266C71 /* CharactersList */,
+				54737EF12B50AFD0009803B6 /* Network */,
+				54737EF32B50AFDD009803B6 /* Logger */,
 			);
 			productName = MarvelSquad;
 			productReference = 54F2FA3A2B430B8D006D51C9 /* MarvelSquad.app */;
@@ -987,13 +987,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		54BD55BA2B46EE59001A9F70 /* Logger */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Logger;
-		};
-		54BD55BC2B46EE59001A9F70 /* Network */ = {
+		54737EF12B50AFD0009803B6 /* Network */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Network;
+		};
+		54737EF32B50AFDD009803B6 /* Logger */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logger;
 		};
 		54C5CD4E2B4B3B6000266C71 /* CharactersList */ = {
 			isa = XCSwiftPackageProductDependency;
