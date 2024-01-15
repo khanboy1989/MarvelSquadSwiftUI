@@ -7,14 +7,19 @@ import CompilerPluginSupport
 let package = Package(
     name: "Helpers",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v16),
+        .macOS(.v10_15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "Helpers",
             targets: ["Helpers"]),
-        .library(name: "Macros", targets: ["Macros"])
+        .library(name: "Macros", targets: ["Macros"]),
+        .executable(
+            name: "MacrosClient",
+            targets: ["MacrosClient"]
+        ),
     ],
     dependencies: [
         // Depend on the Swift 5.9 release of SwiftSyntax
@@ -31,10 +36,11 @@ let package = Package(
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax")
             ]
         ),
+        // Library that exposes a macro as part of its API, which is used in client programs.
+        .target(name: "Helpers", dependencies: ["Macros"]),
+        // A client of the library, which is able to use the macro in its own code.
+        .executableTarget(name: "MacrosClient", dependencies: ["Macros"]),
 
-        .target(
-            name: "Helpers"),
-        
         .testTarget(
             name: "HelpersTests",
             dependencies: ["Helpers"]),
