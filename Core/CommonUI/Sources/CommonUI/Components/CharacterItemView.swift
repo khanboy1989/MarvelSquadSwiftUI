@@ -10,12 +10,12 @@ import SwiftUI
 public struct CharacterItemView: View {
     private let name: String
     private let image: Image
-    
+
     public init(name: String, image: Image) {
         self.name = name
         self.image = image
     }
-    
+
     public var body: some View {
         HStack(alignment: .center) {
             image
@@ -25,4 +25,3 @@ public struct CharacterItemView: View {
         }.padding(.horizontal, 16)
     }
 }
-

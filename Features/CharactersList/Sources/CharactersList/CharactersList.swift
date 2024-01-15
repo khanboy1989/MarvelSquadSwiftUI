@@ -12,7 +12,7 @@ public struct CharactersList: View {
         self.characterName = characterName
         self.characterAvatar = characterAvatar
     }
-    
+
     public var body: some View {
         VStack {
             CharacterItemView(name: characterName, image: characterAvatar)

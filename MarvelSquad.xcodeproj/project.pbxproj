@@ -95,6 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5457029E2B55898900FA1A29 /* HelperMacros */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HelperMacros; sourceTree = "<group>"; };
 		545FB0E02B47797500D3B983 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		545FB0E12B47797500D3B983 /* SF-Pro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Italic.ttf"; sourceTree = "<group>"; };
 		545FB0E22B47797500D3B983 /* SF-Pro-Text-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-UltralightItalic.otf"; sourceTree = "<group>"; };
@@ -392,6 +393,7 @@
 		54F2FA672B430C3B006D51C9 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				5457029E2B55898900FA1A29 /* HelperMacros */,
 				EB38425B2B4FF36200ED9BE3 /* Domain */,
 				54BD55B62B46C6CB001A9F70 /* Logger */,
 				54F2FA782B432A4B006D51C9 /* Network */,
@@ -443,6 +445,7 @@
 				54F2FA372B430B8D006D51C9 /* Frameworks */,
 				54F2FA382B430B8D006D51C9 /* Resources */,
 				54BD55C72B46FDDA001A9F70 /* SwiftGen */,
+				5457029F2B55A1AC00FA1A29 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -616,6 +619,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5457029F2B55A1AC00FA1A29 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		54BD55C72B46FDDA001A9F70 /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

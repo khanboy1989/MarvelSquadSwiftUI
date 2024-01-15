@@ -6,12 +6,12 @@ import PackageDescription
 let package = Package(
     name: "CharactersList",
     platforms: [
-        .iOS(.v16),
+        .iOS(.v16)
     ],
     products: [
         .library(
             name: "CharactersList",
-            targets: ["CharactersList"]),
+            targets: ["CharactersList"])
     ],
     dependencies: [
         .package(path: "../Core/CommonUI")
@@ -25,6 +25,6 @@ let package = Package(
         ),
         .testTarget(
             name: "CharactersListTests",
-            dependencies: ["CharactersList"]),
+            dependencies: ["CharactersList"])
     ]
 )

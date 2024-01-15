@@ -17,14 +17,14 @@ let package = Package(
         .library(
                 name: "NetworkMock",
                 targets: ["NetworkMock"]
-            ),
+            )
 
-    ],dependencies: [
+    ], dependencies: [
         .package(path: "./Logger"),
-        .package(url: "https://github.com/AliSoftware/OHHTTPStubs", from: "9.1.0"),
+        .package(url: "https://github.com/AliSoftware/OHHTTPStubs", from: "9.1.0")
     ],
     targets: [
-        
+
         .target(
             name: "Network", dependencies: ["Logger"]),
         .target(name: "NetworkMock",
@@ -33,6 +33,6 @@ let package = Package(
                ),
         .testTarget(
             name: "NetworkTests",
-            dependencies: ["Network", .product(name: "OHHTTPStubsSwift", package: "OHHTTPStubs")]),
+            dependencies: ["Network", .product(name: "OHHTTPStubsSwift", package: "OHHTTPStubs")])
     ]
 )

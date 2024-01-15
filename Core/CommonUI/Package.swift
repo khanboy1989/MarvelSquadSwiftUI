@@ -6,13 +6,13 @@ import PackageDescription
 let package = Package(
     name: "CommonUI",
     platforms: [
-        .iOS(.v16),
+        .iOS(.v16)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "CommonUI",
-            targets: ["CommonUI"]),
+            targets: ["CommonUI"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,6 +21,6 @@ let package = Package(
             name: "CommonUI"),
         .testTarget(
             name: "CommonUITests",
-            dependencies: ["CommonUI"]),
+            dependencies: ["CommonUI"])
     ]
 )

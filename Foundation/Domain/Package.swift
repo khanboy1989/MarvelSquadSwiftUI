@@ -11,11 +11,11 @@ let package = Package(
         .library(
             name: "Domain",
             targets: ["Domain"]),
-        .library(name: "DomainData", 
+        .library(name: "DomainData",
                  targets: ["DomainData"])
     ],
     dependencies: [
-        .package(path: "./Network"),
+        .package(path: "./Network")
     ],
 
     targets: [
@@ -27,11 +27,11 @@ let package = Package(
             name: "DomainData",
             dependencies: [
                 "Domain",
-                "Network",
+                "Network"
             ]
         ),
         .testTarget(
             name: "DomainTests",
-            dependencies: ["Domain"]),
+            dependencies: ["Domain"])
     ]
 )

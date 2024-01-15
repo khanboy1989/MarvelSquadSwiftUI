@@ -5,18 +5,18 @@ import Foundation
 import Logging
 
 public protocol ILogger {
-    func log(level: LogLevel, 
+    func log(level: LogLevel,
              message: @autoclosure () -> String
     )
 }
 
 public struct Logger: ILogger {
     private let logger: Logging.Logger
-    
+
     public init(label: String) {
         logger = Logging.Logger(label: label)
     }
-    
+
     public func log(level: LogLevel, message: @autoclosure () -> String) {
         logger.log(level: level.toLoggingLevel(), .init(stringLiteral: message()))
     }
@@ -34,7 +34,6 @@ public struct NoLogger: ILogger {
     }
 }
 
-
 public enum LogLevel {
     case trace
     case debug
@@ -43,7 +42,7 @@ public enum LogLevel {
     case warning
     case error
     case critical
-    
+
     func toLoggingLevel() -> Logging.Logger.Level {
         switch self {
         case .trace:
