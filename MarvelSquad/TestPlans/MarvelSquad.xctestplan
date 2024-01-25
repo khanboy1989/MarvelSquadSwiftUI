@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "E1F3ED34-4E59-439B-86A0-9C2ECE99F009",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Features\/CharactersList",
+        "identifier" : "CharactersListTests",
+        "name" : "CharactersListTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:MarvelSquad.xcodeproj",
+        "identifier" : "54F2FA492B430B8E006D51C9",
+        "name" : "MarvelSquadTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:MarvelSquad.xcodeproj",
+        "identifier" : "54F2FA532B430B8E006D51C9",
+        "name" : "MarvelSquadUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
