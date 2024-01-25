@@ -40,12 +40,12 @@ public struct APIEndpoint: EndpointType {
     public let urlQueries: [String: String]?
     public let headers: [String: String]?
     public let bodyParameters: BodyParameter?
-    public init(baseUrl: URL?,
+    public init(baseUrl: URL? = nil,
                 path: String,
                 httpMethod: HTTPMethod,
-                urlQueries: [String: String]?,
-                headers: [String: String]?,
-                bodyParameters: BodyParameter?) {
+                urlQueries: [String: String]? = nil,
+                headers: [String: String]? = nil,
+                bodyParameters: BodyParameter? = nil) {
         self.baseUrl = baseUrl
         self.path = path
         self.httpMethod = httpMethod
