@@ -6,11 +6,11 @@
 //
 
 import SwiftUI
-import CharactersList
+import Characters
 
 struct ContentView: View {
     var body: some View {
-        CharactersList(characterName: "Spider Man", characterAvatar: Asset.Images.avatarPlaceHolder.swiftUIImage)
+        CharactersListView(characterName: "Spider Man", characterAvatar: Asset.Images.avatarPlaceHolder.swiftUIImage)
     }
 }
 
