@@ -32,6 +32,9 @@
             reference = "container:MarvelSquad.xctestplan"
             default = "YES">
          </TestPlanReference>
+         <TestPlanReference
+            reference = "container:MarvelSquad/TestPlans/MarvelSquadTests.xctestplan">
+         </TestPlanReference>
       </TestPlans>
       <Testables>
          <TestableReference

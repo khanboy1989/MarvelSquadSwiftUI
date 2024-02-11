@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "E1F3ED34-4E59-439B-86A0-9C2ECE99F009",
+      "id" : "2CC95220-5811-4A1A-82BF-7356BC328FDE",
       "name" : "Configuration 1",
       "options" : {
 
@@ -9,14 +9,14 @@
     }
   ],
   "defaultOptions" : {
-
+    "testTimeoutsEnabled" : true
   },
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:Features\/CharactersList",
-        "identifier" : "CharactersListTests",
-        "name" : "CharactersListTests"
+        "containerPath" : "container:Features\/Characters",
+        "identifier" : "CharactersTests",
+        "name" : "CharactersTests"
       }
     },
     {

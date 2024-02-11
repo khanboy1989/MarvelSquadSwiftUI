@@ -12,7 +12,20 @@ struct MainTabView: View {
 
     var body: some View {
         TabView(selection: $selection) {
-            
+            CharactersTabCoordinator()
+                .tabItem {
+                    Text("TV Series")
+                        .foregroundColor(Color.red)
+                }
+                .tag(0)
+                .toolbarBackground(Color.black, for: .tabBar)
+            CharactersTabCoordinator()
+                .tabItem {
+                    Text("TV Series")
+                        .foregroundColor(Color.red)
+                }
+                .tag(1)
+                .toolbarBackground(Color.black, for: .tabBar)
         }
     }
 }

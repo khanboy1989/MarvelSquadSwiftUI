@@ -13,11 +13,16 @@ import Domain
 import DomainData
 
 public struct CharactersCoordinator: View {
-    
     @EnvironmentObject private var router: Router
+    private let dependecies: Dependencies
+    
+    public init(dependecies: Dependencies) {
+        self.dependecies = dependecies
+    }
     
     public var body: some View {
-        Text("Hello, World!")
+        let _ = print("CharactersCoordinator")
+        CharactersListView(characterName: "Spider Man", characterAvatar: Image(""))
     }
 }
 
