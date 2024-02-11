@@ -1,10 +1,16 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+//
+//  File.swift
+//  
+//
+//  Created by Serhan Khan on 27/01/2024.
+//
+
+import Foundation
 
 import SwiftUI
 import CommonUI
 
-public struct CharactersList: View {
+public struct CharactersListView: View {
     private let characterName: String
     private let characterAvatar: Image
 

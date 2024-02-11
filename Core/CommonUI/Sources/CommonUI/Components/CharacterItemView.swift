@@ -22,6 +22,8 @@ public struct CharacterItemView: View {
                 .resizable()
                 .frame(width: 100, height: 100)
                 .padding()
+            Text(name)
+                .foregroundColor(.black)
         }.padding(.horizontal, 16)
     }
 }

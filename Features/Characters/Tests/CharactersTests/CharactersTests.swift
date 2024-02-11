@@ -1,7 +1,7 @@
 import XCTest
-@testable import CharactersList
+@testable import Characters
 
-final class CharactersListTests: XCTestCase {
+final class CharactersTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

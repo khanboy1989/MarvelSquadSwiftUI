@@ -11,7 +11,22 @@ struct MainTabView: View {
     @State private var selection = 0
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selection) {
+            CharactersTabCoordinator()
+                .tabItem {
+                    Text("TV Series")
+                        .foregroundColor(Color.red)
+                }
+                .tag(0)
+                .toolbarBackground(Color.black, for: .tabBar)
+            CharactersTabCoordinator()
+                .tabItem {
+                    Text("TV Series")
+                        .foregroundColor(Color.red)
+                }
+                .tag(1)
+                .toolbarBackground(Color.black, for: .tabBar)
+        }
     }
 }
 
