@@ -22,6 +22,8 @@ public struct CharactersListView: View {
     public var body: some View {
         VStack {
             CharacterItemView(name: characterName, image: characterAvatar)
+        }.task {
+            
         }
     }
 }

@@ -22,7 +22,7 @@ final class CharactersListViewModel: ObservableObject {
         self.repository = dependencies.characterRepository
     }
     
-    private func fetch() async {
+    func fetch() async {
         
     }
 }

@@ -24,6 +24,8 @@ public struct CharacterItemView: View {
                 .padding()
             Text(name)
                 .foregroundColor(.black)
-        }.padding(.horizontal, 16)
+        }
+        .padding(.horizontal, 16)
+        
     }
 }
