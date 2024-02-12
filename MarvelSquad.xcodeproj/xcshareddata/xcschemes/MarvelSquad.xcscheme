@@ -29,6 +29,9 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
+            reference = "container:MarvelSquad.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
             reference = "container:MarvelSquad/TestPlans/MarvelSquadTests.xctestplan"
             default = "YES">
          </TestPlanReference>
