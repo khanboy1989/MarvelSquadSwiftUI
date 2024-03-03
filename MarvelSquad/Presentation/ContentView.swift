@@ -10,7 +10,7 @@ import Characters
 
 struct ContentView: View {
     var body: some View {
-        CharactersListView(characterName: "Spider Man", characterAvatar: Asset.Images.avatarPlaceHolder.swiftUIImage)
+       Text("Hello, World!")
     }
 }
 

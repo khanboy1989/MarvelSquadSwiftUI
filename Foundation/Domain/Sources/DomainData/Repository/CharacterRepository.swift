@@ -11,9 +11,11 @@ import Network
 
 public final class CharacterRepository: ICharacterRepository {
     private let apiClientService: IAPIClientService
-    init(apiClientService: IAPIClientService) {
+    
+    public init(apiClientService: IAPIClientService) {
         self.apiClientService = apiClientService
     }
+    
     public func fetchCharacters(limit: Int, offset: Int?, apiKey: String, timeStamp: Date, hash: String) async -> Bool  {
         do {
             let result = try await apiClientService.request(

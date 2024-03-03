@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  
+//
 //
 //  Created by Serhan Khan on 27/01/2024.
 //
@@ -15,22 +15,24 @@ import DomainData
 public struct CharactersCoordinator: View {
     @EnvironmentObject private var router: Router
     private let dependecies: Dependencies
-    
     public init(dependecies: Dependencies) {
         self.dependecies = dependecies
     }
-    
     public var body: some View {
-        let _ = print("CharactersCoordinator")
-        CharactersListView(characterName: "Spider Man", characterAvatar: Image(""))
+        CharactersListView(dependecies: .init(publicKey: dependecies.publicKey,
+                                              privateKey: dependecies.privateKey, characterRepository: CharacterRepository(apiClientService: dependecies.apiClient)))
     }
 }
 
 public extension CharactersCoordinator {
     struct Dependencies {
         let apiClient: IAPIClientService
-        public init(apiClient: IAPIClientService) {
+        let publicKey: String
+        let privateKey: String
+        public init(apiClient: IAPIClientService, publicKey: String, privateKey: String) {
             self.apiClient = apiClient
+            self.publicKey = publicKey
+            self.privateKey = privateKey
         }
     }
 }

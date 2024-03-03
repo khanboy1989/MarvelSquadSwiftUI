@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  CharactersListView.swift
 //  
 //
 //  Created by Serhan Khan on 27/01/2024.
@@ -9,21 +9,22 @@ import Foundation
 
 import SwiftUI
 import CommonUI
+import Router
+import Domain
 
 public struct CharactersListView: View {
-    private let characterName: String
-    private let characterAvatar: Image
-
-    public init(characterName: String, characterAvatar: Image) {
-        self.characterName = characterName
-        self.characterAvatar = characterAvatar
+    @EnvironmentObject private var router: Router
+    @StateObject private var viewModel: CharactersListViewModel
+    
+    init(dependecies: CharactersListViewModel.Dependecies) {
+        _viewModel = .init(wrappedValue: CharactersListViewModel(dependencies: dependecies))
     }
 
     public var body: some View {
         VStack {
-            CharacterItemView(name: characterName, image: characterAvatar)
+          Text("Hello, World Serhan Khan")
         }.task {
-            
+            await viewModel.fetch(limit: 10, offSet: 0)
         }
     }
 }

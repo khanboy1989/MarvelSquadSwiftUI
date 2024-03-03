@@ -12,8 +12,12 @@ import Network
 class Configuration: ObservableObject {
     let logger: ILogger
     let apiClientService: IAPIClientService
-    init(logger: ILogger, apiClientService: IAPIClientService) {
+    let publicKey: String
+    let privateKey: String
+    init(logger: ILogger, apiClientService: IAPIClientService, publicKey: String, privateKey: String) {
         self.logger = logger
         self.apiClientService = apiClientService
+        self.publicKey = publicKey
+        self.privateKey = privateKey
     }
 }

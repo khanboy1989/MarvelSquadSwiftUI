@@ -11,18 +11,24 @@ import Foundation
 
 @MainActor
 final class CharactersListViewModel: ObservableObject {
-    
     private let repository: ICharacterRepository
+    private let publicKey: String
+    private let privateKey: String
     
     struct Dependecies {
+        let publicKey: String
+        let privateKey: String
         let characterRepository: ICharacterRepository
     }
-    
     init(dependencies: Dependecies) {
         self.repository = dependencies.characterRepository
+        self.privateKey = dependencies.privateKey
+        self.publicKey = dependencies.publicKey
+    }
+    func fetch(limit: Int, offSet: Int) async {
+        
+//        self.repository.fetchCharacters(limit: limit, offset: offSet, apiKey: publicKey , timeStamp: <#T##Date#>, hash: <#T##String#>)
     }
     
-    func fetch() async {
-        
-    }
+    
 }
