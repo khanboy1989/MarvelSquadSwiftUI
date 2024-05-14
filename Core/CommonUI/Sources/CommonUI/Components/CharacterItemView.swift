@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  CharacterItemView.swift
 //  
 //
 //  Created by Serhan Khan on 07/01/2024.
