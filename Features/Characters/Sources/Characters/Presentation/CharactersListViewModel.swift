@@ -26,8 +26,9 @@ final class CharactersListViewModel: ObservableObject {
         self.publicKey = dependencies.publicKey
     }
     func fetch(limit: Int, offSet: Int) async {
-        
-//        self.repository.fetchCharacters(limit: limit, offset: offSet, apiKey: publicKey , timeStamp: <#T##Date#>, hash: <#T##String#>)
+        let timeStamp = Date()
+        let hash = "\(timeStamp)\(privateKey)\(publicKey)"
+        await self.repository.fetchCharacters(limit: limit, offset: offSet, apiKey: publicKey , timeStamp: timeStamp, hash: hash)
     }
     
     

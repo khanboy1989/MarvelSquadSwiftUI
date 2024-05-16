@@ -8,6 +8,7 @@
 import Foundation
 import Domain
 import Network
+import Helpers
 
 public final class CharacterRepository: ICharacterRepository {
     private let apiClientService: IAPIClientService
@@ -16,12 +17,12 @@ public final class CharacterRepository: ICharacterRepository {
         self.apiClientService = apiClientService
     }
     
-    public func fetchCharacters(limit: Int, offset: Int?, apiKey: String, timeStamp: Date, hash: String) async -> Bool  {
+    public func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Date, hash: String) async -> Bool  {
         do {
             let result = try await apiClientService.request(
                 APIEndpoints.fetchCharactersEndpoint(limit: limit,
-                                                                                                 offset: offset,
-                                                                                                 apiKey: apiKey, timeStamp: timeStamp, hash: hash),
+                                                                                            offset: offset,
+                                                     apiKey: apiKey, timeStamp: timeStamp, hash: hash.MD5()),
                                                             for: Result.self)
             return result.success
         } catch {

@@ -14,7 +14,8 @@ struct MarvelSquadApp: App {
     let configuration: Configuration
     init() {
         let logger = Logger(label: "MarvelSquad")
-        let apiClientService = APIClientService(logger: logger, 
+        print("Abi base url =\(PlistFiles.apiBaseURL)")
+        let apiClientService = APIClientService(logger: logger,
                                                 configuration: .init(baseURL: URL(string: PlistFiles.apiBaseURL),
                                                 baseHeaders: ["Content-Type": "application/json"]))
         configuration = .init(logger: logger, apiClientService: apiClientService, publicKey: PlistFiles.publicKey, privateKey: PlistFiles.privateKey)

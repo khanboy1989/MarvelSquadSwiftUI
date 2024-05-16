@@ -10,15 +10,15 @@ import Network
 
 enum APIEndpoints {
     static func fetchCharactersEndpoint(limit: Int, 
-                                        offset: Int?,
+                                        offset: Int,
                                         apiKey: String,
                                         timeStamp: Date,
                                         hash: String) -> APIEndpoint {
         return .init(path: "/characters", httpMethod: .get,
                      urlQueries: ["limit": limit.description,
-                                  "offset": offset.debugDescription ?? 0.description,
+                                  "offset": offset.description,
                            "apiKey": apiKey,
                            "ts": timeStamp.timeIntervalSince1970.description,
-                           "hash": hash ])
+                           "hash": hash])
     }
 }
