@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import Router
 
 struct MainTabView: View {
     @State private var selection = 0
-
+    @ObservedObject private var router = Router()
+    
     var body: some View {
         TabView(selection: $selection) {
             CharactersTabCoordinator()
@@ -27,6 +29,7 @@ struct MainTabView: View {
                 .tag(1)
                 .toolbarBackground(Color.black, for: .tabBar)
         }
+        .environmentObject(router)
     }
 }
 

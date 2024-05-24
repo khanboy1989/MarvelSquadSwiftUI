@@ -11,6 +11,7 @@ import SwiftUI
 import CommonUI
 import Router
 import Domain
+import SystemDesign
 
 public struct CharactersListView: View {
     @EnvironmentObject private var router: Router
@@ -21,7 +22,7 @@ public struct CharactersListView: View {
 
     public var body: some View {
         VStack {
-          Text("Hello, World Serhan Khan")
+            Text("Hello, World Serhan Khan \(L10n.systemLanguage)")
         }.task {
             await viewModel.fetch(limit: 10, offSet: 0)
         }
