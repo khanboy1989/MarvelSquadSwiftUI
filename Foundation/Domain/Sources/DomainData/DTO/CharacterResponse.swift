@@ -7,6 +7,9 @@
 
 import Foundation
 
+struct CharactersDataWrapperResponse: Decodable {
+    let data: [CharacterResponse]
+}
 struct CharacterResponse: Decodable {
     let id: Int
     let name: String

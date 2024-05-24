@@ -29,5 +29,6 @@ public struct StringifyMacro: ExpressionMacro {
 struct HelperMacrosPlugin: CompilerPlugin {
     let providingMacros: [Macro.Type] = [
         StringifyMacro.self,
+        DefaultInit.self
     ]
 }

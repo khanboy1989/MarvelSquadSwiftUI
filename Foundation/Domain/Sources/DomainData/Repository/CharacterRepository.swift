@@ -15,7 +15,11 @@ public final class CharacterRepository: ICharacterRepository {
     public init(apiClientService: IAPIClientService) {
         self.apiClientService = apiClientService
     }
-    public func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async -> Bool {
+    public func fetchCharacters(limit: Int, 
+                              offset: Int,
+                              apiKey: String,
+                              timeStamp: Double,
+                              hash: String) async -> Bool {
         do {
             let result = try await apiClientService.request(
                 APIEndpoints.fetchCharactersEndpoint(limit: limit,
