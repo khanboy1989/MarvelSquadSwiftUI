@@ -11,7 +11,7 @@ import Characters
 
 struct CharactersTabCoordinator: View {
     @EnvironmentObject var configuration: Configuration
-    @ObservedObject var router = Router()
+    @EnvironmentObject var router: Router
     var body: some View {
         NavigationStack(path: $router.navPath) {
             CharactersCoordinator(dependecies: .init(
