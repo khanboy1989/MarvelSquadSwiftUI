@@ -26,6 +26,5 @@ public struct CharacterItemView: View {
                 .foregroundColor(.black)
         }
         .padding(.horizontal, 16)
-        
     }
 }
