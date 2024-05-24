@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Characters
+//import Characters
 
 struct ContentView: View {
     var body: some View {

@@ -9,6 +9,9 @@ import Foundation
 import HelperMacros
 
 @DefaultInit
-struct Hero {
-    let id: Int
+public struct Hero: Identifiable {
+    public let id: Int
+    public let name: String
+    public let description: String
+    public let image: String
 }

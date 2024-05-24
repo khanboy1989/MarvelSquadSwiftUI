@@ -8,5 +8,10 @@
 	<string>ee14837fa9f7a4ce3fa26a383e9aa31099e8aec8</string>
 	<key>PublicKey</key>
 	<string>7c653584982ce9ab5b69cadf1d402dd4</string>
+     <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+        </dict>
 </dict>
 </plist>

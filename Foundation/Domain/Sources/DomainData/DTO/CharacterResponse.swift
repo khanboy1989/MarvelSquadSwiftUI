@@ -7,9 +7,6 @@
 
 import Foundation
 
-struct CharactersDataWrapperResponse: Decodable {
-    let data: [CharacterResponse]
-}
 struct CharacterResponse: Decodable {
     let id: Int
     let name: String
@@ -18,4 +15,6 @@ struct CharacterResponse: Decodable {
     let resourceURI: String
     let urls: [CharacterUrlPresponse]
     let thumbnail: CharacterThumbnailResponse
+    let series: SeriesResponse
+    let comics: ComicsResponse
 }

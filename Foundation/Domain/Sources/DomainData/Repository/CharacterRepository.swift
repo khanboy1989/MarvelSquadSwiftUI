@@ -15,20 +15,20 @@ public final class CharacterRepository: ICharacterRepository {
     public init(apiClientService: IAPIClientService) {
         self.apiClientService = apiClientService
     }
-    public func fetchCharacters(limit: Int, 
-                              offset: Int,
-                              apiKey: String,
-                              timeStamp: Double,
-                              hash: String) async -> Bool {
+    public func fetchCharacters(limit: Int,
+                                offset: Int,
+                                apiKey: String,
+                                timeStamp: Double,
+                                hash: String) async throws -> [Hero] {
         do {
             let result = try await apiClientService.request(
                 APIEndpoints.fetchCharactersEndpoint(limit: limit,
-                                                                                            offset: offset,
+                                                     offset: offset,
                                                      apiKey: apiKey, timeStamp: timeStamp, hash: hash.MD5()),
-                                                            for: Result.self)
-            return result.success
+                mapper: CharactersDataWrapperMapper())
+            return result
         } catch {
-            return false
+            throw error
         }
     }
 }

@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol ICharacterRepository {
-    func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async -> Bool
+    func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async throws -> [Hero]
 }
