@@ -15,7 +15,6 @@ import Domain
 public struct CharactersListView: View {
     @EnvironmentObject private var router: Router
     @StateObject private var viewModel: CharactersListViewModel
-    
     init(dependecies: CharactersListViewModel.Dependecies) {
         _viewModel = .init(wrappedValue: CharactersListViewModel(dependencies: dependecies))
     }

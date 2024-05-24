@@ -12,13 +12,13 @@ enum APIEndpoints {
     static func fetchCharactersEndpoint(limit: Int, 
                                         offset: Int,
                                         apiKey: String,
-                                        timeStamp: Date,
+                                        timeStamp: Double,
                                         hash: String) -> APIEndpoint {
-        return .init(path: "/characters", httpMethod: .get,
+        return .init(path: "/v1/public/characters", httpMethod: .get,
                      urlQueries: ["limit": limit.description,
                                   "offset": offset.description,
-                           "apiKey": apiKey,
-                           "ts": timeStamp.timeIntervalSince1970.description,
+                           "apikey": apiKey,
+                                  "ts": timeStamp.description,
                            "hash": hash])
     }
 }

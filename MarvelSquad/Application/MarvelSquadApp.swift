@@ -18,7 +18,8 @@ struct MarvelSquadApp: App {
         let apiClientService = APIClientService(logger: logger,
                                                 configuration: .init(baseURL: URL(string: PlistFiles.apiBaseURL),
                                                 baseHeaders: ["Content-Type": "application/json"]))
-        configuration = .init(logger: logger, apiClientService: apiClientService, publicKey: PlistFiles.publicKey, privateKey: PlistFiles.privateKey)
+        configuration = .init(logger: logger, 
+                              apiClientService: apiClientService, publicKey: PlistFiles.publicKey, privateKey: PlistFiles.privateKey)
     }
     var body: some Scene {
         WindowGroup {

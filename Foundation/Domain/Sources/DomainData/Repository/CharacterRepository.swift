@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  CharacterRepository.swift
 //
 //
 //  Created by Serhan Khan on 25.01.24.
@@ -12,12 +12,10 @@ import Helpers
 
 public final class CharacterRepository: ICharacterRepository {
     private let apiClientService: IAPIClientService
-    
     public init(apiClientService: IAPIClientService) {
         self.apiClientService = apiClientService
     }
-    
-    public func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Date, hash: String) async -> Bool  {
+    public func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async -> Bool {
         do {
             let result = try await apiClientService.request(
                 APIEndpoints.fetchCharactersEndpoint(limit: limit,
@@ -29,6 +27,4 @@ public final class CharacterRepository: ICharacterRepository {
             return false
         }
     }
-    
-    
 }
