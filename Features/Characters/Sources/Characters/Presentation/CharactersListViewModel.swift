@@ -30,7 +30,6 @@ final class CharactersListViewModel: ObservableObject {
     }
     @Published
     var state: State = .loading
-    
     @MainActor
     func fetch(limit: Int, offSet: Int) async {
         let timeStamp = Date().timeIntervalSince1970
@@ -48,5 +47,4 @@ final class CharactersListViewModel: ObservableObject {
            self.showError = true
         }
     }
-    
 }
