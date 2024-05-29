@@ -22,12 +22,11 @@ struct MainTabView: View {
                 }
                 .tag(0)
                 .toolbarBackground(Asset.Colors.white.swiftUIColor, for: .tabBar)
-            CharactersTabCoordinator()
+            ComicsTabCoordinator()
                 .tabItem {
                     Image(systemName: "book.circle")
                         .foregroundStyle(Color.black)
-                    Text(L10n.seriesTabTitle)
-                        
+                    Text(L10n.comicsTabTitle)
                 }
                 .tag(1)
                 .toolbarBackground(Asset.Colors.white.swiftUIColor, for: .tabBar)
