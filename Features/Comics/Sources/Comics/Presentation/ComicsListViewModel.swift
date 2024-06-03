@@ -23,4 +23,17 @@ final class ComicsListViewModel: ObservableObject {
         self.privateKey = dependecies.privateKey
         self.publicKey = dependecies.publicKey
     }
+    
+    @MainActor
+    func fetch(limit: Int, offset: Int) async {
+        let timeStamp = Date().timeIntervalSince1970
+        let hash = "\(timeStamp)\(privateKey)\(publicKey)"
+        
+        do {
+            let result = try await self.repository.fetchComics(limit: limit, offset: offset, apiKey: publicKey, timeStamp: timeStamp, hash: hash)
+        } catch {
+            print("error = \(error)")
+        }
+    }
+    
 }

@@ -8,5 +8,9 @@
 import Foundation
 
 public protocol IComicRepository {
-    func fetchComics(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String)
+    func fetchComics(limit: Int,
+                     offset: Int,
+                     apiKey: String,
+                     timeStamp: Double,
+                     hash: String) async throws -> Bool
 }

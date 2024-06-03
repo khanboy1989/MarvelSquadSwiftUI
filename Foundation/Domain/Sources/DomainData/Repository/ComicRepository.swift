@@ -14,6 +14,17 @@ public final class ComicRepository: IComicRepository {
     public init(apiClientService: IAPIClientService) {
         self.apiClientService = apiClientService
     }
-    public func fetchComics(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) {
+    public func fetchComics(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async throws -> Bool {
+        
+        do {
+            let result = try await apiClientService.request(
+                APIEndpoints.fetchComincsEndpoint(limit: limit,
+                                                     offset: offset,
+                                                     apiKey: apiKey, timeStamp: timeStamp, hash: hash.MD5()),
+                mapper: CharactersDataWrapperMapper())
+            return true
+        } catch {
+            throw error
+        }
     }
 }

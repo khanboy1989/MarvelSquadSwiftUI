@@ -20,6 +20,8 @@ public struct ComicsListView: View {
     public var body: some View {
         VStack {
             Text("ComicsListView")
-        }
+        }.task {
+            await viewModel.fetch(limit: 10, offset: 0)
+        }.navigationTitle("Comics")
     }
 }

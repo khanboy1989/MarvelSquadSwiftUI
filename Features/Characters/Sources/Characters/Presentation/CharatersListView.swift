@@ -34,5 +34,6 @@ public struct CharactersListView: View {
         }.task {
             await viewModel.fetch(limit: 10, offSet: 0)
         }.screenBackground(with: Asset.Colors.white.swiftUIColor)
+        .navigationTitle("Heros")
     }
 }
