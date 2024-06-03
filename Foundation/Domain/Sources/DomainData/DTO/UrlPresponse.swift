@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CharacterUrlPresponse: Decodable {
+struct UrlPresponse: Decodable {
     let type: String
     let url: String
 }

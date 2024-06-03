@@ -13,8 +13,8 @@ struct CharacterResponse: Decodable {
     let description: String
     let modified: String
     let resourceURI: String
-    let urls: [CharacterUrlPresponse]
+    let urls: [UrlPresponse]
     let thumbnail: CharacterThumbnailResponse
     let series: SeriesResponse
-    let comics: ComicsResponse
+    let comics: ComicResponse
 }
