@@ -8,6 +8,7 @@
 import SwiftUI
 import Router
 import SystemDesign
+import Comics
 
 struct MainTabView: View {
     @State private var selection = 0

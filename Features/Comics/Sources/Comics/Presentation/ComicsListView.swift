@@ -25,6 +25,9 @@ public struct ComicsListView: View {
             case .display(let data):
                 List(data, id: \.id) { character in
                     CharacterItemView(name: character.name, imageUrl: character.image)
+                        .onTapGesture {
+                            router.navigate(to: ComicDestination.comicDetail(comic: character))
+                        }
                 }
             }
         }.task {
