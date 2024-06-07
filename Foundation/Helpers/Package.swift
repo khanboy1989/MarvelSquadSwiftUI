@@ -1,26 +1,24 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "Router",
-    platforms: [
-        .iOS(.v16)
-    ],
+    name: "Helpers",
+    platforms: [.iOS(.v16)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Router",
-            targets: ["Router"])
+            name: "Helpers",
+            targets: ["Helpers"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Router"),
+            name: "Helpers"),
         .testTarget(
-            name: "RouterTests",
-            dependencies: ["Router"])
+            name: "HelpersTests",
+            dependencies: ["Helpers"]),
     ]
 )

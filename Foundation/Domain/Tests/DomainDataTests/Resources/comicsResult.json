@@ -1,0 +1,1306 @@
+{
+   "status":"Ok",
+   "code":200,
+   "data":{
+      "results":[
+         {
+            "description":"",
+            "modified":"2019-11-07T08:46:15-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":0
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+               "extension":"jpg"
+            },
+            "title":"Marvel Previews (2017)",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82967/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"75960608839302811",
+            "images":[
+               
+            ],
+            "creators":{
+               "returned":1,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82967/creators",
+               "items":[
+                  {
+                     "name":"Jim Nausedas",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/10021",
+                     "role":"editor"
+                  }
+               ],
+               "available":1
+            },
+            "textObjects":[
+               
+            ],
+            "pageCount":112,
+            "ean":"",
+            "id":82967,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2099-10-30T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"2019-10-07T00:00:00-0400"
+               }
+            ],
+            "format":"",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/82967",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82967/stories",
+               "items":[
+                  {
+                     "name":"cover from Marvel Previews (2017)",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/183698",
+                     "type":"cover"
+                  },
+                  {
+                     "name":"story from Marvel Previews (2017)",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/183699",
+                     "type":"interiorStory"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/82967/marvel_previews_2017?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82965"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82970"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82969"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/74697"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/72736"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/75668"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65364"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65158"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65028"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/75662"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/74320"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/73776"
+               }
+            ],
+            "issueNumber":0,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Marvel Previews (2017 - Present)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/23665"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82967/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"2019-08-21T17:11:27-0400",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":0
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+               "extension":"jpg"
+            },
+            "title":"Marvel Previews (2017)",
+            "diamondCode":"JUL190068",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82965/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"75960608839302611",
+            "images":[
+               
+            ],
+            "creators":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82965/creators",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "textObjects":[
+               
+            ],
+            "pageCount":152,
+            "ean":"",
+            "id":82965,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2099-08-28T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"2019-08-05T00:00:00-0400"
+               }
+            ],
+            "format":"",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/82965",
+            "stories":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82965/stories",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/82965/marvel_previews_2017?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82967"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82970"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82969"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/74697"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/72736"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/75668"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65364"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65158"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65028"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/75662"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/74320"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/73776"
+               }
+            ],
+            "issueNumber":0,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Marvel Previews (2017 - Present)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/23665"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82965/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"2020-02-07T09:35:32-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":0
+               },
+               {
+                  "type":"digitalPurchasePrice",
+                  "price":0
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/c/80/5e3d7536c8ada",
+               "extension":"jpg"
+            },
+            "title":"Marvel Previews (2017)",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82970/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"75960608839303111",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/c/80/5e3d7536c8ada",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":1,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82970/creators",
+               "items":[
+                  {
+                     "name":"Jim Nausedas",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/10021",
+                     "role":"editor"
+                  }
+               ],
+               "available":1
+            },
+            "textObjects":[
+               
+            ],
+            "pageCount":112,
+            "ean":"",
+            "id":82970,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2099-01-29T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"2020-01-06T00:00:00-0500"
+               },
+               {
+                  "type":"unlimitedDate",
+                  "date":"2020-01-29T00:00:00-0500"
+               },
+               {
+                  "type":"digitalPurchaseDate",
+                  "date":"2020-01-29T00:00:00-0500"
+               }
+            ],
+            "format":"",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/82970",
+            "stories":{
+               "returned":1,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82970/stories",
+               "items":[
+                  {
+                     "name":"cover from Marvel Previews (2017)",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/183704",
+                     "type":"cover"
+                  }
+               ],
+               "available":1
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/82970/marvel_previews_2017?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               },
+               {
+                  "type":"purchase",
+                  "url":"http://comicstore.marvel.com/Marvel-Previews-0/digital-comic/52952?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               },
+               {
+                  "type":"reader",
+                  "url":"http://marvel.com/digitalcomics/view.htm?iid=52952&utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               },
+               {
+                  "type":"inAppLink",
+                  "url":"https://applink.marvel.com/issue/52952?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82967"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82965"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/82969"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/74697"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/72736"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/75668"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65364"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65158"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/65028"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/75662"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/74320"
+               },
+               {
+                  "name":"Marvel Previews (2017)",
+                  "resourceURI":"http://gateway.marvel.com/v1/public/comics/73776"
+               }
+            ],
+            "issueNumber":0,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Marvel Previews (2017 - Present)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/23665"
+            },
+            "digitalId":52952,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/82970/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":2.9900000000000002
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+               "extension":"jpg"
+            },
+            "title":"Startling Stories: The Incorrigible Hulk (2004) #1",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/183/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"5960605429-00811",
+            "images":[
+               
+            ],
+            "creators":{
+               "returned":1,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/183/creators",
+               "items":[
+                  {
+                     "name":"Peter Bagge",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/6291",
+                     "role":"penciller (cover)"
+                  }
+               ],
+               "available":1
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"For Doctor Bruce Banner life is anything but normal. But what happens when two women get between him and his alter ego, the Incorrigible Hulk? Hulk confused! \r\nIndy superstar Peter Bagge (THE MEGALOMANIACAL SPIDER-MAN) takes a satirical jab at the Hulk mythos with a tale of dames, debauchery and destruction.\r\n32 PGS./MARVEL PSR...$2.99",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":0,
+            "ean":"",
+            "id":183,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Comic",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/183",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/183/stories",
+               "items":[
+                  {
+                     "name":"Cover #1891",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/1891",
+                     "type":"cover"
+                  },
+                  {
+                     "name":"Interior #1892",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/1892",
+                     "type":"interiorStory"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/183/startling_stories_the_incorrigible_hulk_2004_1?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":1,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Startling Stories: The Incorrigible Hulk (2004)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/565"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":1,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/183/characters",
+               "items":[
+                  {
+                     "name":"Hulk",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/characters/1009351"
+                  }
+               ],
+               "available":1
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":2.9900000000000002
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/4/20/4bc697c680890",
+               "extension":"jpg"
+            },
+            "title":"Ant-Man (2003) #4",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/428/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"5960605482-00411",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/4/20/4bc697c680890",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/428/creators",
+               "items":[
+                  {
+                     "name":"Clayton Crain",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/600",
+                     "role":"penciller (cover)"
+                  },
+                  {
+                     "name":"Daniel Way",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/344",
+                     "role":"writer"
+                  }
+               ],
+               "available":2
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"Ant-Man digs deeper into finding out who is leaking those dirty little secrets that are threatening our national security. And who's better at uncovering dirty LITTLE secrets than him??",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":0,
+            "ean":"",
+            "id":428,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Comic",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/428",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/428/stories",
+               "items":[
+                  {
+                     "name":"Cover #2331",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/2331",
+                     "type":"cover"
+                  },
+                  {
+                     "name":"Interior #2332",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/2332",
+                     "type":"interiorStory"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/428/ant-man_2003_4?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":4,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Ant-Man (2003 - 2004)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/551"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/428/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":9.9900000000000002
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/f/c0/4bc66d78f1bee",
+               "extension":"jpg"
+            },
+            "title":"Sentry, the (Trade Paperback)",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/1003/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/f/c0/4bc66d78f1bee",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/1003/creators",
+               "items":[
+                  {
+                     "name":"Paul Jenkins",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/55",
+                     "role":"writer"
+                  },
+                  {
+                     "name":"Jae Lee",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/56",
+                     "role":"penciller"
+                  }
+               ],
+               "available":2
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"On the edge of alcoholism and a failed marriage, Bob Reynolds wakes up to discover his true nature. A forgotten hero, he must unravel the conspiracy to erase his memory from mankind before an evil entity returns.",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":240,
+            "ean":"",
+            "id":1003,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Trade Paperback",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/1003",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/1003/stories",
+               "items":[
+                  {
+                     "name":"On the edge of alcoholism and a failed marriage, Bob Reynolds wakes up to discover his true nature. A forgotten hero, he must un",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/66",
+                     "type":"interiorStory"
+                  },
+                  {
+                     "name":"SENTRY, THE TPB 0 cover",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/65143",
+                     "type":"cover"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"0-7851-0799-1",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/collection/1003/sentry_the_trade_paperback?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":0,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Sentry, the (1999)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/65"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/1003/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":2.5
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
+               "extension":"jpg"
+            },
+            "title":"Gun Theory (2003) #4",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/331/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"5960605468-00111",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/331/creators",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"The phone rings, and killer-for-hire Harvey embarks on another hit. But nothing's going right this job. There's little room for error in the business of killing - so what happens when one occurs?\r\n32 PGS./ PARENTAL ADVISORY ...$2.50",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":0,
+            "ean":"",
+            "id":331,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Comic",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/331",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/331/stories",
+               "items":[
+                  {
+                     "name":"Interior #2263",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/2263",
+                     "type":"interiorStory"
+                  },
+                  {
+                     "name":"GUN THEORY 4 cover",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/65423",
+                     "type":"cover"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/331/gun_theory_2003_4?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":4,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Gun Theory (2003)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/649"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/331/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":2.9900000000000002
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4bc6a2497684e",
+               "extension":"jpg"
+            },
+            "title":"Ant-Man (2003) #1",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/291/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"5960605396-01811",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4bc6a2497684e",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/291/creators",
+               "items":[
+                  {
+                     "name":"Clayton Crain",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/600",
+                     "role":"penciller (cover)"
+                  },
+                  {
+                     "name":"Daniel Way",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/344",
+                     "role":"writer"
+                  }
+               ],
+               "available":2
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"Size does matter.  And no one knows this more than Hank Pym - a.k.a. Ant-Man. Got a problem with Galactus? Call the FF. Got a problem with, say, mind-controlled cockroaches? Then Ant-Man's your man! And needless to say, it's done a number on our diminutive hero's self-esteem.  When Ant-Man is tapped to infiltrate an international spy ring that has been siphoning secrets out of Washington, he jumps at the chance - unaware that he's being used as a pawn in a larger game of espionage.\r\n32 PGS./PARENTAL ADVISORY...$2.99",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":0,
+            "ean":"",
+            "id":291,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Comic",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/291",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/291/stories",
+               "items":[
+                  {
+                     "name":"Cover #1806",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/1806",
+                     "type":"cover"
+                  },
+                  {
+                     "name":"Interior #1807",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/1807",
+                     "type":"interiorStory"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/291/ant-man_2003_1?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":1,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Ant-Man (2003 - 2004)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/551"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/291/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":2.9900000000000002
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/d/70/4bc69c7e9b9d7",
+               "extension":"jpg"
+            },
+            "title":"Ant-Man (2003) #3",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/376/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"5960605396-02011",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/d/70/4bc69c7e9b9d7",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/376/creators",
+               "items":[
+                  {
+                     "name":"Clayton Crain",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/600",
+                     "role":"penciller (cover)"
+                  },
+                  {
+                     "name":"Daniel Way",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/344",
+                     "role":"writer"
+                  }
+               ],
+               "available":2
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"When Hank Pym - a.k.a. Ant-Man - is tapped by U.S. Intelligence to infiltrate an international spy ring that has been siphoning secrets out of Washington, the diminutive hero jumps at the chance - unaware that he's being used as a pawn in a larger game of espionage.\r32 PGS./PARENTAL ADVISORY...$2.99",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":0,
+            "ean":"",
+            "id":376,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Comic",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/376",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/376/stories",
+               "items":[
+                  {
+                     "name":"Cover #1810",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/1810",
+                     "type":"cover"
+                  },
+                  {
+                     "name":"Interior #1811",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/1811",
+                     "type":"interiorStory"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/376/ant-man_2003_3?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":3,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Ant-Man (2003 - 2004)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/551"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/376/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         },
+         {
+            "description":"",
+            "modified":"-0001-11-30T00:00:00-0500",
+            "prices":[
+               {
+                  "type":"printPrice",
+                  "price":2.5
+               }
+            ],
+            "thumbnail":{
+               "path":"http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
+               "extension":"jpg"
+            },
+            "title":"Gun Theory (2003) #3",
+            "diamondCode":"",
+            "issn":"",
+            "events":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/384/events",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "upc":"5960605492-00411",
+            "images":[
+               {
+                  "path":"http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
+                  "extension":"jpg"
+               }
+            ],
+            "creators":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/384/creators",
+               "items":[
+                  {
+                     "name":"Jon Proctor",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/576",
+                     "role":"penciller (cover)"
+                  },
+                  {
+                     "name":"Daniel Way",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/creators/344",
+                     "role":"writer"
+                  }
+               ],
+               "available":2
+            },
+            "textObjects":[
+               {
+                  "type":"issue_solicit_text",
+                  "text":"The phone rings, and killer-for-hire Harvey embarks on another hit. But nothing's going right this job. There's little room for error in the business of killing - so what happens when one occurs?\r\n\r\n32 PGS./ PARENTAL ADVISORY ...$2.50",
+                  "language":"en-us"
+               }
+            ],
+            "pageCount":0,
+            "ean":"",
+            "id":384,
+            "dates":[
+               {
+                  "type":"onsaleDate",
+                  "date":"2029-12-31T00:00:00-0500"
+               },
+               {
+                  "type":"focDate",
+                  "date":"-0001-11-30T00:00:00-0500"
+               }
+            ],
+            "format":"Comic",
+            "resourceURI":"http://gateway.marvel.com/v1/public/comics/384",
+            "stories":{
+               "returned":2,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/384/stories",
+               "items":[
+                  {
+                     "name":"Cover #2538",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/2538",
+                     "type":"cover"
+                  },
+                  {
+                     "name":"Interior #2539",
+                     "resourceURI":"http://gateway.marvel.com/v1/public/stories/2539",
+                     "type":"interiorStory"
+                  }
+               ],
+               "available":2
+            },
+            "isbn":"",
+            "urls":[
+               {
+                  "type":"detail",
+                  "url":"http://marvel.com/comics/issue/384/gun_theory_2003_3?utm_campaign=apiRef&utm_source=7c653584982ce9ab5b69cadf1d402dd4"
+               }
+            ],
+            "variants":[
+               
+            ],
+            "issueNumber":3,
+            "collections":[
+               
+            ],
+            "series":{
+               "name":"Gun Theory (2003)",
+               "resourceURI":"http://gateway.marvel.com/v1/public/series/649"
+            },
+            "digitalId":0,
+            "collectedIssues":[
+               
+            ],
+            "characters":{
+               "returned":0,
+               "collectionURI":"http://gateway.marvel.com/v1/public/comics/384/characters",
+               "items":[
+                  
+               ],
+               "available":0
+            },
+            "variantDescription":""
+         }
+      ],
+      "offset":0,
+      "count":10,
+      "total":60494,
+      "limit":10
+   },
+   "copyright":"© 2024 MARVEL",
+   "etag":"37d08dc380974d2388adb02477dc29412a11219d",
+   "attributionText":"Data provided by Marvel. © 2024 MARVEL",
+   "attributionHTML":"<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>"
+}

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Serhan Khan on 24.05.24.
+  
+*/
+"systemLanguage" = "en";
+"herosTabTitle" = "Heros";
+"comicsTabTitle" = "Comics";

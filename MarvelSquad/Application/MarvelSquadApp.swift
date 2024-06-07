@@ -6,13 +6,26 @@
 //
 
 import SwiftUI
-import Router
+import Logger
+import Network
 
 @main
 struct MarvelSquadApp: App {
+    let configuration: Configuration
+    init() {
+        let logger = Logger(label: "MarvelSquad")
+        let apiClientService = APIClientService(logger: logger,
+                                                configuration: .init(baseURL: URL(string: PlistFiles.apiBaseURL),
+                                                baseHeaders: ["Content-Type": "application/json"]))
+        configuration = .init(logger: logger, 
+                              apiClientService: apiClientService, 
+                              publicKey: PlistFiles.publicKey,
+                              privateKey: PlistFiles.privateKey)
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(configuration)
         }
     }
 }

@@ -6,12 +6,32 @@
 //
 
 import SwiftUI
+import Router
+import SystemDesign
 
 struct MainTabView: View {
     @State private var selection = 0
-    
+    @ObservedObject private var router = Router()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selection) {
+            CharactersTabCoordinator()
+                .tabItem {
+                    Image(systemName: "person.circle")
+                        .foregroundStyle(Color.black)
+                    Text(L10n.herosTabTitle)
+                }
+                .tag(0)
+                .toolbarBackground(Asset.Colors.white.swiftUIColor, for: .tabBar)
+            ComicsTabCoordinator()
+                .tabItem {
+                    Image(systemName: "book.circle")
+                        .foregroundStyle(Color.black)
+                    Text(L10n.comicsTabTitle)
+                }
+                .tag(1)
+                .toolbarBackground(Asset.Colors.white.swiftUIColor, for: .tabBar)
+        }
+       .environmentObject(router)
     }
 }
 
