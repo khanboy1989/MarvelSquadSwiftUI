@@ -147,28 +147,6 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
-		54BB39512B471CD100E3FC8C /* Features */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		54BB39522B471D1200E3FC8C /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				54BB39532B471D2A00E3FC8C /* Coordinators */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		54BB39532B471D2A00E3FC8C /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinators;
-			sourceTree = "<group>";
-		};
 		54BD55B72B46EB8C001A9F70 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,8 +205,6 @@
 				54BD55BE2B46FCDE001A9F70 /* Supporting */,
 				54BD55B72B46EB8C001A9F70 /* Configuration */,
 				54F2FA742B4320A0006D51C9 /* Presentation */,
-				54BB39512B471CD100E3FC8C /* Features */,
-				54BB39522B471D1200E3FC8C /* Navigation */,
 				54F2FA732B43207C006D51C9 /* Application */,
 				54F2FA432B430B8E006D51C9 /* Preview Content */,
 			);
