@@ -17,5 +17,12 @@ this repo: https://github.com/hoangatuan/iMovie (Thank to hoangatuan).
 - Dependency Injection using `CompositionRoot` approach, `DIContainer` & constructor injection to support testing.
 - Designed for scalability. It can be used as a reference for building large production apps  
 
+### Inovates 💡
+
+- Use Swift Macros to remove duplicate codes
+
+## Why MVVM but not TCA, Redux, ... ?
+
+Please read [this great article](https://betterprogramming.pub/swiftui-choosing-an-application-architecture-6ec9289f8e8f) from @Michael Long. I pretty much agreed with his thoughts.
 
 
