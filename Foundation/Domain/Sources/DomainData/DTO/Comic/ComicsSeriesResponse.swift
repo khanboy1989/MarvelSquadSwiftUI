@@ -8,6 +8,6 @@
 import Foundation
 
 struct ComicsSeriesResponse: Decodable {
-    let resourceURI: String
-    let name: String
+    let resourceURI: String?
+    let name: String?
 }

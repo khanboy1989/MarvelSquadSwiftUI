@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ComicResponse: Decodable {
+struct CharacterComicResponse: Decodable {
     let returned: Int
     let collectionURI: String
     let available: Int

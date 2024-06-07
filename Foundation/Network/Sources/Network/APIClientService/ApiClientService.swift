@@ -98,9 +98,8 @@ public final class APIClientService: IAPIClientService {
                 return modelResponse
             } catch {
                 if let decodingError = error as? DecodingError {
-                    logger.log(level: .error, message: "❌ Decoding error: \(decodingError.detailErrorDescription)")
+                    logger.log(level: .error, message: "❌ Decoding error in \(T.self): \(decodingError.detailErrorDescription)")
                 }
-
                 throw APIError.parsing(error: error)
             }
         case let .failure(failure):

@@ -12,5 +12,5 @@ public protocol IComicRepository {
                      offset: Int,
                      apiKey: String,
                      timeStamp: Double,
-                     hash: String) async throws -> Bool
+                     hash: String) async throws -> [Comic]
 }

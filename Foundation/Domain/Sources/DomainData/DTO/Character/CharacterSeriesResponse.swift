@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SeriesResponse: Decodable {
+struct CharacterSeriesResponse: Decodable {
     let returned: Int
     let collectionURI: String
     let available: Int

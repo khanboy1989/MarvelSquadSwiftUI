@@ -18,10 +18,18 @@ public struct ComicsListView: View {
         _viewModel = .init(wrappedValue: ComicsListViewModel(dependecies: dependecies))
     }
     public var body: some View {
-        VStack {
-            Text("ComicsListView")
+        ZStack {
+            switch viewModel.state {
+            case .loading:
+                ProgressView()
+            case .display(let data):
+                List(data, id: \.id) { character in
+                    CharacterItemView(name: character.name, imageUrl: character.image)
+                }
+            }
         }.task {
             await viewModel.fetch(limit: 10, offset: 0)
-        }.navigationTitle("Comics")
+        }.screenBackground(with: Asset.Colors.white.swiftUIColor)
+        .navigationTitle(L10n.comicsTabTitle)
     }
 }
