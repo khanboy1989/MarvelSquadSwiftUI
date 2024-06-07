@@ -10,8 +10,12 @@ this repo: https://github.com/hoangatuan/iMovie (Thank to hoangatuan).
 
 ## Key Features
 
-
-
+- Presentation layer: SwiftUI + MVVM-C + Modern concurrency
+- Clean architecture: Decoupled Presentation, Business Logic, and Data Access layers
+- Modular architecture
+- Navigation using `NavigationStack`
+- Dependency Injection using `CompositionRoot` approach, `DIContainer` & constructor injection to support testing.
+- Designed for scalability. It can be used as a reference for building large production apps  
 
 
 

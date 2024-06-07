@@ -15,6 +15,7 @@
 		5490252E2C133E1800C7EAA2 /* Comics in Resources */ = {isa = PBXBuildFile; fileRef = 5490252D2C133E1700C7EAA2 /* Comics */; };
 		549025302C133E7300C7EAA2 /* Comics in Frameworks */ = {isa = PBXBuildFile; productRef = 5490252F2C133E7300C7EAA2 /* Comics */; };
 		549025332C13402B00C7EAA2 /* ComicsTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549025322C13402B00C7EAA2 /* ComicsTabCoordinator.swift */; };
+		549025352C1382AA00C7EAA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 549025342C1382AA00C7EAA2 /* README.md */; };
 		5492B9182C00DE48007DF0A1 /* SystemDesign in Resources */ = {isa = PBXBuildFile; fileRef = 5492B9172C00DE48007DF0A1 /* SystemDesign */; };
 		5492B91A2C00DE69007DF0A1 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 5492B9192C00DE69007DF0A1 /* Helpers */; };
 		54BB39502B47192200E3FC8C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB394D2B47192200E3FC8C /* Info.swift */; };
@@ -53,6 +54,7 @@
 		5485035A2B7A6808006130C9 /* HelperMacros */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HelperMacros; sourceTree = "<group>"; };
 		5490252D2C133E1700C7EAA2 /* Comics */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Comics; sourceTree = "<group>"; };
 		549025322C13402B00C7EAA2 /* ComicsTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsTabCoordinator.swift; sourceTree = "<group>"; };
+		549025342C1382AA00C7EAA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5492B9172C00DE48007DF0A1 /* SystemDesign */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SystemDesign; sourceTree = "<group>"; };
 		5492B9192C00DE69007DF0A1 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Helpers; sourceTree = "<group>"; };
 		54AD16932B48892200136813 /* CommonUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonUI; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		54F2FA312B430B8D006D51C9 = {
 			isa = PBXGroup;
 			children = (
+				549025342C1382AA00C7EAA2 /* README.md */,
 				54AD16942B48892E00136813 /* Features */,
 				54AD16902B478D4B00136813 /* Core */,
 				54F2FA672B430C3B006D51C9 /* Foundation */,
@@ -399,6 +402,7 @@
 				5492B91A2C00DE69007DF0A1 /* Helpers in Resources */,
 				54F2FA452B430B8E006D51C9 /* Preview Assets.xcassets in Resources */,
 				5492B9182C00DE48007DF0A1 /* SystemDesign in Resources */,
+				549025352C1382AA00C7EAA2 /* README.md in Resources */,
 				54F2FA422B430B8E006D51C9 /* Assets.xcassets in Resources */,
 				5490252E2C133E1800C7EAA2 /* Comics in Resources */,
 				54BD55CE2B470468001A9F70 /* swiftgen.yml in Resources */,
