@@ -1,6 +1,7 @@
-# Marvel Squads 
-![3352b206b07100316ef7fab2e592a914](https://github.com/khanboy1989/MarvelSquadSwiftUI/assets/11138262/493bc340-a597-4b0e-9591-c6861d28026a)
-
-
-## This project originally inspired me from one of my job application, previously I developed it in MVVM-C by using SwiftUI. 
+<h1 align="center">About Project</h1>
+<div id="header" align="center"> 
+  <img src="https://i.pinimg.com/originals/aa/dd/7e/aadd7e9b3bd757c82a475138365f4c09.jpg" width="300"/>
+  <h2> Hey there 👋 I am Serhan Khan</h2> 
+  <h4>  I am passionate Sr. iOS Developer :iphone:. I am a UIKit master and eager to improve SwiftUI skills. </h4> 
+</div>
 
