@@ -1,6 +1,8 @@
-<h1 align="left">About Project</h1>
-<div id="header" align="left"> 
-  <h2> Marvel Squads iOS</h2> 
-  <img src="https://i.pinimg.com/736x/33/52/b2/3352b206b07100316ef7fab2e592a914.jpg" height="200"/>
-</div>
+# 🦸‍♂️ Marvel Squads
+
+## This project is created by using MVVM-C pattern with full SwiftUI. 
+
+This example has been developed by getting inspired from one of my previous job applications (not structure - only the context). The structure is taken from 
+this repo: https://github.com/hoangatuan/iMovie
+
 
