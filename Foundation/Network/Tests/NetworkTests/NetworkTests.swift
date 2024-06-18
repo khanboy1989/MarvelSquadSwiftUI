@@ -9,18 +9,15 @@ final class NetworkTests: XCTestCase {
     }
     func testApiClientService() {
         Task {
-            do {
-                let result =  await apiClientService.request(APIEndpoint(path: "/v1/public/characters", httpMethod: .get))
-                switch result {
-                case let .success(response):
-                    XCTAssertNotNil(response)
-                case let .failure(error):
-                    print(error)
-                }
-            } catch {
-                print("error = \(error.localizedDescription)")
+            let result = await apiClientService.request(APIEndpoint(path: "/v1/public/characters", httpMethod: .get))
+            XCTAssertNotNil(result)
+
+            switch result {
+            case let .success(response):
+                XCTAssertNotNil(response.statusCode)
+            case let .failure(error):
+                print(error)
             }
-          
         }
     }
 }
