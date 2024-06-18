@@ -33,6 +33,6 @@ let package = Package(
                ),
         .testTarget(
             name: "NetworkTests",
-            dependencies: ["Network", .product(name: "OHHTTPStubsSwift", package: "OHHTTPStubs")])
+            dependencies: ["Network", .product(name: "OHHTTPStubsSwift", package: "OHHTTPStubs"), "NetworkMock"])
     ]
 )

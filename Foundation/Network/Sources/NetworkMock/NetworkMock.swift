@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  NetworkMock.swift
 //  
 //
 //  Created by Serhan Khan on 04/01/2024.
@@ -14,7 +14,7 @@ public func createAPIClientServiceMock() -> IAPIClientService {
     return APIClientService(
         logger: NoLogger(label: ""),
         configuration: .init(
-            baseURL: URL(string: "https://api.themoviedb.org"),
+            baseURL: URL(string: "https://gateway.marvel.com"),
             baseHeaders: [
                 "accept": "application/json",
                 "content-type": "application/json"
