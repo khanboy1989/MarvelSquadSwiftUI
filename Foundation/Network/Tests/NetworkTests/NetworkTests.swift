@@ -7,17 +7,8 @@ final class NetworkTests: XCTestCase {
     override func setUp() {
         apiClientService = createAPIClientServiceMock()
     }
-    func testApiClientService() {
-        Task {
-            let result = await apiClientService.request(APIEndpoint(path: "/v1/public/characters", httpMethod: .get))
-            XCTAssertNotNil(result)
-
-            switch result {
-            case let .success(response):
-                XCTAssertNotNil(response.statusCode)
-            case let .failure(error):
-                print(error)
-            }
-        }
+    func testApiClientRequestMethod() async {
+        let result = await apiClientService.request(APIEndpoint(path: "/v1/public/characters", httpMethod: .get))
+        XCTAssertNotNil(result)
     }
 }
