@@ -11,7 +11,7 @@ import Domain
 
 struct CharactersDataWrapperMapper: Mappable {
     func map(_ input: CharactersDataWrapperResponse) throws -> [Hero] {
-        return try input.data.results.map { try CharacterResponseMapper().map($0) }
+        return try input.data.results.map { try CharacterResponseMapper().map($0)}
     }
 }
 

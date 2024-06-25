@@ -14,6 +14,11 @@ final class ComicRepositoryTests: XCTest {
     var sut: IComicRepository!
     
     override func setUp() {
-//        sut = ComicRepository(apiClientService: createAPIClientServiceMock())
+        sut = ComicRepositoryMock()
+    }
+    
+    override func tearDown() {
+        super.tearDown()
+        sut = nil 
     }
 }
