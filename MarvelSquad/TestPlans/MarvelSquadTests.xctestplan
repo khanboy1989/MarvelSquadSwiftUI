@@ -46,6 +46,20 @@
         "identifier" : "NetworkTests",
         "name" : "NetworkTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Domain",
+        "identifier" : "DomainDataTests",
+        "name" : "DomainDataTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Domain",
+        "identifier" : "DomainTests",
+        "name" : "DomainTests"
+      }
     }
   ],
   "version" : 1
