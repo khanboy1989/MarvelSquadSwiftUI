@@ -6,11 +6,10 @@
 //
 
 import Foundation
-
-final class TestBundleClass {}
-
 extension Bundle {
-    static var MarvelSquadTests: Bundle {
-        return Bundle(for: TestBundleClass.self)
-    }
+    public static var testBundle: Bundle = {
+        // This assumes the resources are in the main bundle
+        // For a Swift package, you would use Bundle.module
+        return .module
+    }()
 }

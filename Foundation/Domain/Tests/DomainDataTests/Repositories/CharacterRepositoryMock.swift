@@ -1,6 +1,6 @@
 //
-//  File.swift
-//  
+//  CharacterRepositoryMock.swift
+//
 //
 //  Created by Serhan Khan on 25.06.24.
 //

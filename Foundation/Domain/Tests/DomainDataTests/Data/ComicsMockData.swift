@@ -14,26 +14,13 @@ import Domain
 enum ComicsJsonFile: String {
     case comics = "comicsResult"
 }
-
-extension ComicsDataWrapperTest {
-    
-    init?(jsonFile: ComicsJsonFile) {
-        guard let path = Bundle.MarvelSquadTests.path(forResource: jsonFile.rawValue, ofType: "json"),
-                let data = try? Data(contentsOf: URL(fileURLWithPath: path)),
-              let jsonObject = try? JSONSerialization.jsonObject(with: data),
+struct ComicsDataWrapperTest {
+    static func loadComics(from jsonFile: ComicsJsonFile) -> [Comic]? {
+        guard let path = Bundle.testBundle.path(forResource: jsonFile.rawValue, ofType: "json"),
+              let data = try? Data(contentsOf: URL(fileURLWithPath: path)),
               let parsedData = try? JSONDecoder().decode(ComicsDataWrapperResponse.self, from: data) else {
-                                return nil
-            }
-        
-        try? self.map(parsedData)
+            return nil
+        }
+        return try? ComicsDataWrapperMapper().map(parsedData)
     }
-    
-}
-
-struct ComicsDataWrapperTest: Mappable  {
-    
-    func map(_ input: ComicsDataWrapperResponse) throws -> [Comic] {
-        return try ComicsDataWrapperMapper().map(input)
-    }
-    
 }

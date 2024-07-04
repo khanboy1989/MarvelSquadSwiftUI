@@ -7,11 +7,14 @@
 
 import Foundation
 import Domain
-
 @testable import DomainData
 
 final class ComicRepositoryMock: IComicRepository {
     func fetchComics(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async throws -> [Domain.Comic] {
-        return []
+        if let data =  ComicsDataWrapperTest.loadComics(from: .comics) {
+            return data
+        } else {
+            return []
+        }
     }
 }

@@ -38,7 +38,8 @@ let package = Package(
         .testTarget(
             name: "DomainTests",
             dependencies: ["Domain"]),
-        .testTarget(name: "DomainDataTests", dependencies: ["DomainData"], resources: [
+        .testTarget(name: "DomainDataTests", dependencies: ["DomainData"],
+                    resources: [
             .process("Resources")
         ])
     ]

@@ -19,7 +19,6 @@ public final class ComicRepository: IComicRepository {
                             apiKey: String,
                             timeStamp: Double,
                             hash: String) async throws -> [Comic] {
-        
         do {
             let result = try await apiClientService.request(
                 APIEndpoints.fetchComincsEndpoint(limit: limit,

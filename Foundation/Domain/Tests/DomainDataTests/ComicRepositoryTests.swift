@@ -9,16 +9,18 @@ import Domain
 import XCTest
 @testable import DomainData
 
-final class ComicRepositoryTests: XCTest {
-    
+final class ComicRepositoryTests: XCTestCase {
     var sut: IComicRepository!
-    
     override func setUp() {
         sut = ComicRepositoryMock()
     }
-    
     override func tearDown() {
         super.tearDown()
         sut = nil 
+    }
+    func testComicFetch() async {
+        let data = try? await sut.fetchComics(limit: 10, offset: 10, apiKey: "", timeStamp: 0.0, hash: "")
+        XCTAssertNotNil(data)
+        XCTAssertEqual(data?.first?.name, "Marvel Previews (2017)")
     }
 }
