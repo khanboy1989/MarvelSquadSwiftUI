@@ -8,7 +8,6 @@
 import Foundation
 import Network
 import Domain
-
 @testable import DomainData
 
 enum ComicsJsonFile: String {
