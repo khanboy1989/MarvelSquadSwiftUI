@@ -17,5 +17,6 @@ final class CharacterRepositoryTests: XCTestCase {
     func testFetchCharacters() async {
         let data = try? await sut.fetchCharacters(limit: 10, offset: 10, apiKey: "", timeStamp: 10.0, hash: "")
         XCTAssertNotNil(data)
+        XCTAssertEqual(data?.first?.name, "3-D Man")
     }
 }
