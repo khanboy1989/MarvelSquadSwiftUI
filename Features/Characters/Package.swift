@@ -19,7 +19,7 @@ let package = Package(
         .package(path: "../Foundation/Network"),
         .package(path: "../Foundation/Domain"),
         .package(path: "../Foundation/Router"),
-        .package(path: "../Foundation/SystemDesign")
+        .package(path: "../Foundation/SystemDesign"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

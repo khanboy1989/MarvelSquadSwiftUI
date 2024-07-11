@@ -12,7 +12,7 @@ let package = Package(
             name: "Domain",
             targets: ["Domain"]),
         .library(name: "DomainData",
-                 targets: ["DomainData"])
+                 targets: ["DomainData"]),
     ],
     dependencies: [
         .package(path: "./Network"),
