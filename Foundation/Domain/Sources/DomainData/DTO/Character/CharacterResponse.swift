@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CharacterResponse: Decodable {
+public struct CharacterResponse: Decodable {
     let id: Int
     let name: String
     let description: String

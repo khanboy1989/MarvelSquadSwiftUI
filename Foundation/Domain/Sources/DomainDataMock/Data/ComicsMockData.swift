@@ -8,12 +8,12 @@
 import Foundation
 import Network
 import Domain
-@testable import DomainData
+import DomainData
 
-enum ComicsJsonFile: String {
+public enum ComicsJsonFile: String {
     case comics = "comicsResult"
 }
-struct ComicsDataWrapperTest {
+public struct ComicsDataWrapperTest {
     static func loadComics(from jsonFile: ComicsJsonFile) -> [Comic]? {
         guard let path = Bundle.testBundle.path(forResource: jsonFile.rawValue, ofType: "json"),
               let data = try? Data(contentsOf: URL(fileURLWithPath: path)),

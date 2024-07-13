@@ -1,13 +1,13 @@
 //
-//  Bundle+TestData.swift
+//  Bundle+Test.swift
 //
 //
-//  Created by Serhan Khan on 25.06.24.
+//  Created by Serhan Khan on 13/07/2024.
 //
 
 import Foundation
-extension Bundle {
-    public static var testBundle: Bundle = {
+public extension Bundle {
+    static var testBundle: Bundle = {
         // This assumes the resources are in the main bundle
         // For a Swift package, you would use Bundle.module
         return .module

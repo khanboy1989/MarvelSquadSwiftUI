@@ -7,9 +7,8 @@
 
 import Foundation
 import Domain
-@testable import DomainData
-
 public final class CharacterRepositoryMock: ICharacterRepository {
+    public init() {}
     public func fetchCharacters(limit: Int, offset: Int, apiKey: String, timeStamp: Double, hash: String) async throws -> [Hero] {
         if let data = CharactersDataWrapperTest.loadCharacters(from: .characters) {
             return data

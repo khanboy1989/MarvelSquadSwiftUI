@@ -7,7 +7,6 @@
 
 import XCTest
 import Domain
-
 @testable import Characters
 
 final class CharacterListViewModelTests: XCTestCase {

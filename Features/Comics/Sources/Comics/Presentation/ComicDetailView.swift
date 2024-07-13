@@ -10,7 +10,6 @@ import SystemDesign
 import CommonUI
 import Domain
 
-
 struct ComicDetailView: View {
     private let comic: Comic
     init(comic: Comic) {
@@ -48,4 +47,3 @@ struct ComicDetailView: View {
         .background(Asset.Colors.white.swiftUIColor)
     }
 }
-

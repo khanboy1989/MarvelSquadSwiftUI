@@ -7,6 +7,7 @@
 
 import Domain
 import XCTest
+import DomainDataMock
 @testable import DomainData
 
 final class CharacterRepositoryTests: XCTestCase {
