@@ -30,7 +30,8 @@ public struct ComicsListView: View {
                         .onTapGesture {
                             router.navigate(to: ComicDestination.comicDetail(comic: character))
                         }
-                }
+                }.background(.white)
+                    .listStyle(PlainListStyle())
             }
         }.task {
             await viewModel.fetch(limit: 10, offset: 0)
