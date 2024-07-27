@@ -16,7 +16,7 @@ final class RouterTests: XCTestCase {
         sut = nil
     }
     
-    //Test navigation when pushed, navigate back, return to root
+    // Test navigation when pushed, navigate back, return to root
     func testNaviagete() throws {
         sut.navigate(to: MockNavigateDestination.navigateOne)
         XCTAssertEqual(sut.navPath.count, 1)
@@ -27,7 +27,7 @@ final class RouterTests: XCTestCase {
         XCTAssertEqual(sut.navPath.count, 0)
     }
     
-    //Test sheet presentation scenario 
+    // Test sheet presentation scenario
     func testPresentedSheet() throws {
         sut.presentSheet(destination: MockPresenter.showError)
         XCTAssertEqual(sut.presentedSheet?.destination.id as? String, "showError")

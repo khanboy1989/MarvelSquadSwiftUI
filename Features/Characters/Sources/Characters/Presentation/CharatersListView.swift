@@ -23,17 +23,24 @@ public struct CharactersListView: View {
             switch viewModel.state {
             case .loading:
                 ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle(tint: .blue))
+                    .onAppear {
+                        print("loading state is active")
+                    }
             case .display(let data):
                 List(data, id: \.id) { character in
                     CharacterItemView(name: character.name, imageUrl: character.image)
+                        .modifier(DefaultListModifier())
                         .onTapGesture {
                             router.navigate(to: CharacterDestination.characterDetail(hero: character))
                         }
-                }
+                }.background(.white)
+                .listStyle(PlainListStyle())
             }
         }.task {
             await viewModel.fetch(limit: 10, offSet: 0)
         }.screenBackground(with: Asset.Colors.white.swiftUIColor)
-            .navigationTitle(L10n.herosTabTitle)
+        .navigationBarColor(backgroundColor: .white, titleColor: .black) // Set navigation bar colors
+        .navigationTitle(L10n.herosTabTitle)
     }
 }
