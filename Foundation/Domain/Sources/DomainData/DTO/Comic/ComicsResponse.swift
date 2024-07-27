@@ -9,13 +9,14 @@ import Foundation
 import Network
 import Domain
 
-struct ComicsDataWrapperMapper: Mappable {
-    func map(_ input: ComicsDataWrapperResponse) throws -> [Comic] {
+public struct ComicsDataWrapperMapper: Mappable {
+    public init() {}
+    public func map(_ input: ComicsDataWrapperResponse) throws -> [Comic] {
         return try input.data.results.map { try ComicResponseMapper().map($0) }
     }
 }
 
-struct ComicsDataWrapperResponse: Decodable {
+public struct ComicsDataWrapperResponse: Decodable {
     let code: Int
     let status: String
     let copyright: String

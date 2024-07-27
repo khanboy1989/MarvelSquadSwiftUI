@@ -1,12 +1,16 @@
 import XCTest
 @testable import Network
+@testable import NetworkMock
 
 final class NetworkTests: XCTestCase {
-    func testExample() throws {
-        // XCTest Documentation
-        // https://developer.apple.com/documentation/xctest
-
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+    var apiClientService: IAPIClientService!
+    override func setUp() {
+        apiClientService = createAPIClientServiceMock()
+    }
+    /// Purpose: Tests whether apiClientService class creates the baseUrl and headers correctly
+    /// Obviously it will return error from request method since all of the requirements for the request is not provided
+    func testApiClientRequestMethod() async {
+        let result = await apiClientService.request(APIEndpoint(path: "/v1/public/characters", httpMethod: .get))
+        XCTAssertNotNil(result)
     }
 }

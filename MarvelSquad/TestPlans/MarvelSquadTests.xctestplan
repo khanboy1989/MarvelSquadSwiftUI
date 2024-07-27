@@ -32,6 +32,34 @@
         "identifier" : "54F2FA532B430B8E006D51C9",
         "name" : "MarvelSquadUITests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Router",
+        "identifier" : "RouterTests",
+        "name" : "RouterTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Network",
+        "identifier" : "NetworkTests",
+        "name" : "NetworkTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Domain",
+        "identifier" : "DomainDataTests",
+        "name" : "DomainDataTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Domain",
+        "identifier" : "DomainTests",
+        "name" : "DomainTests"
+      }
     }
   ],
   "version" : 1

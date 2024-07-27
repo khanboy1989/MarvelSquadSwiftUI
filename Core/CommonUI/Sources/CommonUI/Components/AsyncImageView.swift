@@ -54,7 +54,7 @@ public struct AsyncImageView: View {
                     .cornerRadius(cornerRadius)
                     .frame(width: width, height: height)
                     .padding()
-            case .failure(_):
+            case .failure:
                 Image(systemName: placeHolder)
                     .resizable()
                     .colorScheme(colorScheme)

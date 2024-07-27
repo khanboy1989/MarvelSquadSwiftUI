@@ -24,7 +24,8 @@ public struct CharactersCoordinator: View {
     public var body: some View {
         CharactersListView(dependecies: .init(publicKey: dependecies.publicKey,
                           privateKey: dependecies.privateKey,
-                                              characterRepository: CharacterRepository(apiClientService: dependecies.apiClient)))
+                                              characterRepository: 
+                                                CharacterRepository(apiClientService: dependecies.apiClient)))
         .navigationDestination(for: CharacterDestination.self, destination: { destination in
             switch destination {
             case let .characterDetail(hero):

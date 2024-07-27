@@ -12,7 +12,9 @@ let package = Package(
             name: "Domain",
             targets: ["Domain"]),
         .library(name: "DomainData",
-                 targets: ["DomainData"])
+                 targets: ["DomainData"]),
+        .library(name: "DomainDataMock", 
+                 targets: ["DomainDataMock"])
     ],
     dependencies: [
         .package(path: "./Network"),
@@ -35,11 +37,11 @@ let package = Package(
                 "Helpers"
             ]
         ),
+        .target(name: "DomainDataMock", dependencies: ["Domain", "DomainData"], resources: [.process("Resources")]),
+        
         .testTarget(
             name: "DomainTests",
             dependencies: ["Domain"]),
-        .testTarget(name: "DomainDataTests", dependencies: ["DomainData"], resources: [
-            .process("Resources")
-        ])
+        .testTarget(name: "DomainDataTests", dependencies: ["DomainData", "DomainDataMock"])
     ]
 )

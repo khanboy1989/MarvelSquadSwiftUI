@@ -27,9 +27,9 @@ enum APIEndpoints {
         return .init(path: "/v1/public/comics", 
                      httpMethod: .get,
                      urlQueries: ["limit": limit.description, 
-                                  "offset" : offset.description,
+                                  "offset": offset.description,
                                   "apikey": apiKey,
                                   "ts": timeStamp.description ,
-                                  "hash" : hash])
+                                  "hash": hash])
     }
 }

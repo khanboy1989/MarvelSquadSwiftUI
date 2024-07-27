@@ -22,17 +22,21 @@ public struct ComicsListView: View {
             switch viewModel.state {
             case .loading:
                 ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle(tint: .blue))
             case .display(let data):
                 List(data, id: \.id) { character in
                     CharacterItemView(name: character.name, imageUrl: character.image)
+                        .modifier(DefaultListModifier())
                         .onTapGesture {
                             router.navigate(to: ComicDestination.comicDetail(comic: character))
                         }
-                }
+                }.background(.white)
+                    .listStyle(PlainListStyle())
             }
         }.task {
             await viewModel.fetch(limit: 10, offset: 0)
         }.screenBackground(with: Asset.Colors.white.swiftUIColor)
+        .navigationBarColor(backgroundColor: .white, titleColor: .black)
         .navigationTitle(L10n.comicsTabTitle)
     }
 }
