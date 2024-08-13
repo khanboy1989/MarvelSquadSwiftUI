@@ -37,6 +37,10 @@ let package = Package(
         ),
         .testTarget(
             name: "CharactersTests",
-            dependencies: ["Characters"])
+            dependencies: ["Characters", 
+                           "Domain",
+                           .product(name: "DomainDataMock", package: "Domain")]
+            
+        )
     ]
 )
