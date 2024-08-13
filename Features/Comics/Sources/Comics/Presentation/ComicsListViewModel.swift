@@ -24,7 +24,7 @@ final class ComicsListViewModel: ObservableObject {
         self.privateKey = dependecies.privateKey
         self.publicKey = dependecies.publicKey
     }
-    enum State {
+    enum State: Equatable {
         case loading, display(data: [Comic])
     }
     @Published

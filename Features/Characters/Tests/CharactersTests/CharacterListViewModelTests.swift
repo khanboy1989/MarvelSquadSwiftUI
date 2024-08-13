@@ -23,6 +23,7 @@ final class CharacterListViewModelTests: XCTestCase {
     override func tearDown() {
         super.tearDown()
         sut = nil
+        mockCharacterRepository = nil 
     }
     func testFetchCharacters() async {
         XCTAssertEqual(sut.state, .loading)
