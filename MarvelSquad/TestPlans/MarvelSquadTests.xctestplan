@@ -14,13 +14,6 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:Features\/Characters",
-        "identifier" : "CharactersTests",
-        "name" : "CharactersTests"
-      }
-    },
-    {
-      "target" : {
         "containerPath" : "container:MarvelSquad.xcodeproj",
         "identifier" : "54F2FA492B430B8E006D51C9",
         "name" : "MarvelSquadTests"
@@ -50,15 +43,50 @@
     {
       "target" : {
         "containerPath" : "container:Foundation\/Domain",
-        "identifier" : "DomainDataTests",
-        "name" : "DomainDataTests"
+        "identifier" : "DomainTests",
+        "name" : "DomainTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:Foundation\/Domain",
-        "identifier" : "DomainTests",
-        "name" : "DomainTests"
+        "containerPath" : "container:Features\/Characters",
+        "identifier" : "CharactersTests",
+        "name" : "CharactersTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Features\/Comics",
+        "identifier" : "ComicsTests",
+        "name" : "ComicsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Core\/CommonUI",
+        "identifier" : "CommonUITests",
+        "name" : "CommonUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/HelperMacros",
+        "identifier" : "HelperMacrosTests",
+        "name" : "HelperMacrosTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Helpers",
+        "identifier" : "HelpersTests",
+        "name" : "HelpersTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Foundation\/Logger",
+        "identifier" : "LoggerTests",
+        "name" : "LoggerTests"
       }
     }
   ],

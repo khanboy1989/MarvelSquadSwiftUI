@@ -38,10 +38,8 @@ let package = Package(
             ]
         ),
         .target(name: "DomainDataMock", dependencies: ["Domain", "DomainData"], resources: [.process("Resources")]),
-        
         .testTarget(
             name: "DomainTests",
-            dependencies: ["Domain"]),
-        .testTarget(name: "DomainDataTests", dependencies: ["DomainData", "DomainDataMock"])
+            dependencies: ["Domain", "DomainData", "DomainDataMock"]),
     ]
 )

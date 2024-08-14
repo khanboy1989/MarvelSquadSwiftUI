@@ -25,7 +25,7 @@ final class CharactersListViewModel: ObservableObject {
         self.privateKey = dependencies.privateKey
         self.publicKey = dependencies.publicKey
     }
-    enum State {
+    enum State: Equatable {
         case loading, display(data: [Hero])
     }
     @Published
